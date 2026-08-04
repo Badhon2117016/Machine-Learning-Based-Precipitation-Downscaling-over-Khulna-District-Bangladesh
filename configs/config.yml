@@ -1,0 +1,372 @@
+```yaml
+# ==========================================================
+# Main Project Configuration
+# Precipitation Downscaling for Khulna District
+# ==========================================================
+
+project:
+  name: "Precipitation Downscaling for Khulna District"
+  version: "1.0.0"
+  description: >
+    Geospatial and machine-learning workflow for producing
+    high-resolution precipitation estimates over Khulna District,
+    Bangladesh.
+
+  random_seed: 42
+
+
+# ==========================================================
+# Project Directories
+# All paths are relative to the repository root
+# ==========================================================
+
+paths:
+  data_root: "data"
+
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  external_data: "data/external"
+
+  boundary: "data/raw/boundary/Khulna.shp"
+
+  precipitation_raw: "data/raw/precipitation"
+  predictors_raw: "data/raw/predictors"
+
+  rasters_aligned: "data/processed/rasters_aligned"
+  quality_control: "data/processed/quality_control"
+  monthly_stacks: "data/processed/monthly_stacks"
+  training_tables: "data/processed/training_tables"
+  predictions: "data/processed/predictions"
+
+  models: "models"
+
+  outputs: "outputs"
+  figures: "outputs/figures"
+  maps: "outputs/maps"
+  tables: "outputs/tables"
+  reports: "outputs/reports"
+
+  logs: "outputs/logs"
+
+
+# ==========================================================
+# Study Area
+# ==========================================================
+
+study_area:
+  name: "Khulna District"
+  country: "Bangladesh"
+
+  boundary_file: "data/raw/boundary/Khulna.shp"
+
+  boundary_crs: "EPSG:4326"
+
+  target_crs: "EPSG:32645"
+
+
+# ==========================================================
+# Study Period
+# Change these values according to your available data
+# ==========================================================
+
+time:
+  start_year: 2017
+  end_year: 2023
+
+  start_month: 1
+  end_month: 12
+
+  temporal_resolution: "monthly"
+
+  date_format: "%Y_%m"
+
+  expected_months_per_year: 12
+
+
+# ==========================================================
+# Reference Raster
+# All rasters will be aligned to this raster
+# ==========================================================
+
+reference_raster:
+  dataset: "NDVI"
+
+  file: "data/processed/rasters_aligned/NDVI/NDVI_2017_01.tif"
+
+  use_reference_crs: true
+  use_reference_resolution: true
+  use_reference_transform: true
+  use_reference_bounds: true
+  use_reference_shape: true
+
+
+# ==========================================================
+# Raster Processing
+# ==========================================================
+
+raster:
+  output_format: "GTiff"
+
+  target_crs: "EPSG:32645"
+
+  target_resolution:
+    x: 1000
+    y: 1000
+    unit: "metre"
+
+  nodata_value: -9999.0
+
+  compression: "LZW"
+
+  tiled: true
+
+  predictor_resampling: "bilinear"
+
+  categorical_resampling: "nearest"
+
+  precipitation_resampling: "bilinear"
+
+  clip_to_boundary: true
+
+  mask_outside_boundary: true
+
+  overwrite_existing: false
+
+
+# ==========================================================
+# Precipitation Target
+# ==========================================================
+
+target:
+  name: "precipitation"
+
+  dataset: "CHIRPS"
+
+  folder: "data/raw/precipitation/CHIRPS"
+
+  file_pattern: "CHIRPS_{year}_{month:02d}.tif"
+
+  unit: "mm/month"
+
+  variable_type: "continuous"
+
+  valid_min: 0.0
+
+  valid_max: 3000.0
+
+  nodata_value: -9999.0
+
+
+# ==========================================================
+# Predictor Variables
+# Update folder and file-pattern values if necessary
+# ==========================================================
+
+predictors:
+
+  elevation:
+    enabled: true
+    dataset: "SRTM"
+    folder: "data/raw/predictors/DEM"
+    file_pattern: "DEM_Khulna.tif"
+    variable_type: "continuous"
+    temporal_type: "static"
+    resampling: "bilinear"
+    unit: "metre"
+
+  slope:
+    enabled: true
+    dataset: "Derived from DEM"
+    folder: "data/raw/predictors/Slope"
+    file_pattern: "Slope_Khulna.tif"
+    variable_type: "continuous"
+    temporal_type: "static"
+    resampling: "bilinear"
+    unit: "degree"
+
+  ndvi:
+    enabled: true
+    dataset: "MODIS"
+    folder: "data/raw/predictors/NDVI"
+    file_pattern: "NDVI_{year}_{month:02d}.tif"
+    variable_type: "continuous"
+    temporal_type: "monthly"
+    resampling: "bilinear"
+    valid_min: -1.0
+    valid_max: 1.0
+
+  lst:
+    enabled: true
+    dataset: "MODIS"
+    folder: "data/raw/predictors/LST"
+    file_pattern: "LST_{year}_{month:02d}.tif"
+    variable_type: "continuous"
+    temporal_type: "monthly"
+    resampling: "bilinear"
+    unit: "degree Celsius"
+
+  lulc:
+    enabled: true
+    dataset: "ESA WorldCover"
+    folder: "data/raw/predictors/LULC"
+    file_pattern: "LULC_{year}.tif"
+    variable_type: "categorical"
+    temporal_type: "annual"
+    resampling: "nearest"
+
+  latitude:
+    enabled: true
+    dataset: "Derived"
+    variable_type: "continuous"
+    temporal_type: "static"
+
+  longitude:
+    enabled: true
+    dataset: "Derived"
+    variable_type: "continuous"
+    temporal_type: "static"
+
+  distance_to_coast:
+    enabled: false
+    dataset: "Derived"
+    folder: "data/raw/predictors/Distance_to_Coast"
+    file_pattern: "Distance_to_Coast.tif"
+    variable_type: "continuous"
+    temporal_type: "static"
+    resampling: "bilinear"
+    unit: "metre"
+
+  era5_temperature:
+    enabled: false
+    dataset: "ERA5-Land"
+    folder: "data/raw/predictors/ERA5_Temperature"
+    file_pattern: "ERA5_Temperature_{year}_{month:02d}.tif"
+    variable_type: "continuous"
+    temporal_type: "monthly"
+    resampling: "bilinear"
+    unit: "degree Celsius"
+
+
+# ==========================================================
+# Monthly Predictor Stack
+# ==========================================================
+
+stack:
+  output_folder: "data/processed/monthly_stacks"
+
+  output_pattern: "Predictor_Stack_{year}_{month:02d}.tif"
+
+  include_target: true
+
+  predictor_order:
+    - elevation
+    - slope
+    - ndvi
+    - lst
+    - lulc
+    - latitude
+    - longitude
+
+  skip_if_missing_predictor: true
+
+  minimum_valid_predictors: 5
+
+
+# ==========================================================
+# Training Dataset
+# ==========================================================
+
+training:
+  output_folder: "data/processed/training_tables"
+
+  output_file: "khulna_precipitation_training_data.csv"
+
+  remove_nodata: true
+
+  remove_infinite: true
+
+  remove_duplicates: true
+
+  sample_method: "all_valid_pixels"
+
+  maximum_samples_per_month: null
+
+  train_fraction: 0.70
+
+  validation_fraction: 0.15
+
+  test_fraction: 0.15
+
+  split_method: "random"
+
+  random_seed: 42
+
+  standardize_features: false
+
+
+# ==========================================================
+# Quality-Control Settings
+# ==========================================================
+
+quality_control:
+  check_file_exists: true
+  check_crs: true
+  check_resolution: true
+  check_dimensions: true
+  check_transform: true
+  check_bounds: true
+  check_nodata: true
+  check_valid_pixel_percentage: true
+  check_minimum_value: true
+  check_maximum_value: true
+  check_temporal_completeness: true
+
+  minimum_valid_pixel_percentage: 80.0
+
+  fail_on_crs_mismatch: true
+  fail_on_resolution_mismatch: true
+  fail_on_shape_mismatch: true
+  fail_on_transform_mismatch: true
+
+  save_csv_report: true
+  save_json_report: true
+
+
+# ==========================================================
+# Logging
+# ==========================================================
+
+logging:
+  level: "INFO"
+
+  log_to_console: true
+
+  log_to_file: true
+
+  log_file: "outputs/logs/project.log"
+
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+
+# ==========================================================
+# Output Settings
+# ==========================================================
+
+output:
+  save_intermediate_files: true
+
+  save_prediction_rasters: true
+
+  save_model_files: true
+
+  save_figures: true
+
+  save_tables: true
+
+  figure_dpi: 300
+
+  raster_dtype: "float32"
+
+  overwrite: false
+```
