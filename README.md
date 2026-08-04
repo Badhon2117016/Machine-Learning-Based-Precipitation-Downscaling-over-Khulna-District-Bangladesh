@@ -270,7 +270,7 @@ When using this repository, please cite it using the information provided in the
 
 ## Author
 
-**Md. Badhon**
+**Ashikur Rahman Badhon**
 
 GitHub: [Badhon2117016](https://github.com/Badhon2117016)
 
