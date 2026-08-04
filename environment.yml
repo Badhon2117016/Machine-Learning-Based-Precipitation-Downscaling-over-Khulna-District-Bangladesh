@@ -1,0 +1,52 @@
+```yaml
+name: precipitation-downscaling-khulna
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Data handling
+  - numpy
+  - pandas
+  - scipy
+  - openpyxl
+  - pyyaml
+
+  # Geospatial processing
+  - geopandas
+  - rasterio
+  - rioxarray
+  - xarray
+  - shapely
+  - fiona
+  - pyproj
+  - gdal
+  - rasterstats
+
+  # Machine learning
+  - scikit-learn
+  - xgboost
+  - joblib
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - tqdm
+
+  # Testing and code quality
+  - pytest
+  - black
+  - flake8
+
+  - pip:
+      - contextily
+```
