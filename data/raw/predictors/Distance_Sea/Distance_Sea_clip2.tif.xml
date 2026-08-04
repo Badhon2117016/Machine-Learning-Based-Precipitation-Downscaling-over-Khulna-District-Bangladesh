@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20260724</CreaDate><CreaTime>03243500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20260724" Time="032435">ExtractByMask Distance_Sea_km.tif Khulna "E:\GIS_File\Mafrid Sir 2.0\Process data\Distance from Sea\Distance_Sea_clip2.tif"</Process></lineage></DataProperties></Esri></metadata>
