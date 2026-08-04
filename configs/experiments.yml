@@ -1,178 +1,68 @@
-```yaml
 # ==========================================================
-# Machine-Learning Experiment Configuration
-# Precipitation Downscaling for Khulna District
+# Machine Learning Experiment Configuration
+# Precipitation Downscaling - Khulna District
 # ==========================================================
 
 experiment:
   name: "khulna_precipitation_downscaling"
-
   description: >
-    Comparison of statistical and machine-learning models
-    for monthly precipitation downscaling in Khulna District.
-
+    Comparison of machine-learning regression models for monthly
+    precipitation downscaling over Khulna District.
   random_seed: 42
 
-  target_column: "precipitation"
-
-  coordinate_columns:
-    - "x"
-    - "y"
-
-  time_columns:
+data:
+  training_file: "data/processed/model_tables/khulna_precipitation_training_data.csv"
+  target_column: "rainfall_mm"
+  predictors:
+    - "DEM"
+    - "Slope"
+    - "Aspect"
+    - "NDVI"
+    - "LST_Day"
+    - "Distance_Sea"
+  drop_columns:
+    - "station"
+    - "date"
     - "year"
     - "month"
-
-
-# ==========================================================
-# Input Training Data
-# ==========================================================
-
-data:
-  training_file: "data/processed/training_tables/khulna_precipitation_training_data.csv"
-
-  predictors:
-    - "elevation"
-    - "slope"
-    - "ndvi"
-    - "lst"
-    - "lulc"
     - "latitude"
     - "longitude"
-
-  categorical_predictors:
-    - "lulc"
-
-  continuous_predictors:
-    - "elevation"
-    - "slope"
-    - "ndvi"
-    - "lst"
-    - "latitude"
-    - "longitude"
-
-  drop_columns:
-    - "raster_file"
-    - "pixel_id"
-
   remove_missing_values: true
-
   remove_infinite_values: true
-
   remove_duplicate_rows: true
-
-
-# ==========================================================
-# Data Splitting
-# ==========================================================
 
 split:
   method: "random"
-
   train_size: 0.70
-
   validation_size: 0.15
-
   test_size: 0.15
-
   shuffle: true
-
   random_seed: 42
-
-  spatial_block_size: null
-
-  temporal_holdout_year: null
-
-
-# ==========================================================
-# Cross-Validation
-# ==========================================================
 
 cross_validation:
   enabled: true
-
-  method: "kfold"
-
-  number_of_folds: 5
-
+  method: "KFold"
+  folds: 5
   shuffle: true
-
   random_seed: 42
-
-  scoring_metric: "neg_root_mean_squared_error"
-
-
-# ==========================================================
-# Feature Processing
-# ==========================================================
+  primary_scoring: "neg_root_mean_squared_error"
 
 preprocessing:
-  standardize_continuous_features: false
-
-  encode_categorical_features: true
-
-  categorical_encoding: "one_hot"
-
-  handle_unknown_categories: "ignore"
-
-  remove_low_variance_features: false
-
-  remove_highly_correlated_features: false
-
-  correlation_threshold: 0.95
-
-
-# ==========================================================
-# Models
-# Set enabled: false for any model you do not want to run
-# ==========================================================
+  imputation_strategy: "median"
+  standardize_features: false
 
 models:
-
-  linear_regression:
+  Linear_Regression:
     enabled: true
-
     class_name: "LinearRegression"
-
     parameters:
       fit_intercept: true
-      positive: false
 
-    hyperparameter_tuning:
-      enabled: false
-
-
-  ridge_regression:
+  Random_Forest:
     enabled: true
-
-    class_name: "Ridge"
-
-    parameters:
-      alpha: 1.0
-      fit_intercept: true
-      max_iter: 10000
-
-    hyperparameter_tuning:
-      enabled: true
-
-      search_method: "grid"
-
-      parameter_grid:
-        alpha:
-          - 0.01
-          - 0.1
-          - 1.0
-          - 10.0
-          - 100.0
-
-
-  random_forest:
-    enabled: true
-
     class_name: "RandomForestRegressor"
-
     parameters:
-      n_estimators: 500
+      n_estimators: 300
       max_depth: null
       min_samples_split: 2
       min_samples_leaf: 1
@@ -181,47 +71,9 @@ models:
       n_jobs: -1
       random_state: 42
 
-    hyperparameter_tuning:
-      enabled: true
-
-      search_method: "random"
-
-      number_of_iterations: 30
-
-      parameter_grid:
-        n_estimators:
-          - 200
-          - 300
-          - 500
-          - 700
-
-        max_depth:
-          - null
-          - 10
-          - 20
-          - 30
-
-        min_samples_split:
-          - 2
-          - 5
-          - 10
-
-        min_samples_leaf:
-          - 1
-          - 2
-          - 4
-
-        max_features:
-          - "sqrt"
-          - "log2"
-          - 0.7
-
-
-  gradient_boosting:
+  Gradient_Boosting:
     enabled: true
-
     class_name: "GradientBoostingRegressor"
-
     parameters:
       n_estimators: 300
       learning_rate: 0.05
@@ -231,313 +83,46 @@ models:
       subsample: 0.8
       random_state: 42
 
-    hyperparameter_tuning:
-      enabled: true
-
-      search_method: "random"
-
-      number_of_iterations: 25
-
-      parameter_grid:
-        n_estimators:
-          - 100
-          - 200
-          - 300
-          - 500
-
-        learning_rate:
-          - 0.01
-          - 0.03
-          - 0.05
-          - 0.1
-
-        max_depth:
-          - 2
-          - 3
-          - 4
-          - 5
-
-        subsample:
-          - 0.7
-          - 0.8
-          - 1.0
-
-
-  xgboost:
+  XGBoost:
     enabled: true
-
     class_name: "XGBRegressor"
-
     parameters:
       objective: "reg:squarederror"
-      n_estimators: 500
+      n_estimators: 300
       learning_rate: 0.05
       max_depth: 6
       min_child_weight: 1
       subsample: 0.8
       colsample_bytree: 0.8
-      reg_alpha: 0.0
-      reg_lambda: 1.0
       n_jobs: -1
       random_state: 42
-
-    hyperparameter_tuning:
-      enabled: true
-
-      search_method: "random"
-
-      number_of_iterations: 30
-
-      parameter_grid:
-        n_estimators:
-          - 200
-          - 300
-          - 500
-          - 700
-
-        learning_rate:
-          - 0.01
-          - 0.03
-          - 0.05
-          - 0.1
-
-        max_depth:
-          - 3
-          - 4
-          - 6
-          - 8
-
-        min_child_weight:
-          - 1
-          - 3
-          - 5
-
-        subsample:
-          - 0.7
-          - 0.8
-          - 1.0
-
-        colsample_bytree:
-          - 0.7
-          - 0.8
-          - 1.0
-
-
-  extra_trees:
-    enabled: true
-
-    class_name: "ExtraTreesRegressor"
-
-    parameters:
-      n_estimators: 500
-      max_depth: null
-      min_samples_split: 2
-      min_samples_leaf: 1
-      max_features: 1.0
-      bootstrap: false
-      n_jobs: -1
-      random_state: 42
-
-    hyperparameter_tuning:
-      enabled: false
-
-
-  support_vector_regression:
-    enabled: false
-
-    class_name: "SVR"
-
-    parameters:
-      kernel: "rbf"
-      C: 10.0
-      epsilon: 0.1
-      gamma: "scale"
-
-    hyperparameter_tuning:
-      enabled: true
-
-      search_method: "grid"
-
-      parameter_grid:
-        C:
-          - 0.1
-          - 1.0
-          - 10.0
-          - 100.0
-
-        epsilon:
-          - 0.01
-          - 0.1
-          - 0.2
-
-        gamma:
-          - "scale"
-          - "auto"
-
-
-# ==========================================================
-# Hyperparameter Search
-# ==========================================================
-
-hyperparameter_search:
-  cv_folds: 5
-
-  scoring: "neg_root_mean_squared_error"
-
-  n_jobs: -1
-
-  verbose: 1
-
-  return_train_score: true
-
-
-# ==========================================================
-# Evaluation Metrics
-# ==========================================================
 
 evaluation:
   metrics:
-    - "r2"
-    - "rmse"
-    - "mae"
-    - "mse"
-    - "bias"
-    - "nse"
-    - "pearson_correlation"
-
-  primary_metric: "rmse"
-
+    - "RMSE"
+    - "MAE"
+    - "R2"
+    - "Bias"
+  primary_metric: "RMSE"
   model_selection_rule: "lowest"
 
-  calculate_train_metrics: true
-  calculate_validation_metrics: true
-  calculate_test_metrics: true
-
-
-# ==========================================================
-# Residual Analysis
-# ==========================================================
-
-residual_analysis:
-  enabled: true
-
-  save_residual_table: true
-
-  create_residual_histogram: true
-
-  create_residual_scatterplot: true
-
-  create_qq_plot: true
-
-  create_spatial_residual_map: true
-
-  calculate_moran_i: false
-
-
-# ==========================================================
-# Feature Importance
-# ==========================================================
-
-feature_importance:
-  enabled: true
-
-  methods:
-    - "native"
-    - "permutation"
-
-  permutation_repeats: 10
-
-  random_seed: 42
-
-  save_table: true
-
-  save_plot: true
-
-
-# ==========================================================
-# Prediction
-# ==========================================================
+saving:
+  save_models: true
+  model_folder: "models"
+  save_results: true
+  results_file: "outputs/tables/model_performance.csv"
+  best_model_file: "models/best_model.joblib"
 
 prediction:
-  use_best_model: true
-
-  prevent_negative_predictions: true
-
-  minimum_prediction: 0.0
-
-  output_dtype: "float32"
-
-  nodata_value: -9999.0
-
-  compression: "LZW"
-
   output_folder: "data/processed/predictions"
-
   output_pattern: "Downscaled_Precipitation_{year}_{month:02d}.tif"
+  output_format: "GeoTIFF"
+  nodata_value: -9999.0
+  output_dtype: "float32"
+  prevent_negative_prediction: true
 
-
-# ==========================================================
-# Model and Result Saving
-# ==========================================================
-
-saving:
-  save_trained_models: true
-
-  model_folder: "models"
-
-  model_filename_pattern: "{model_name}_model.joblib"
-
-  save_best_model_separately: true
-
-  best_model_filename: "best_precipitation_downscaling_model.joblib"
-
-  save_metrics: true
-
-  metrics_file: "outputs/tables/model_performance.csv"
-
-  save_hyperparameters: true
-
-  hyperparameters_file: "outputs/tables/best_hyperparameters.yml"
-
-  save_predictions: true
-
-  predictions_file: "outputs/tables/test_predictions.csv"
-
-
-# ==========================================================
-# Figures
-# ==========================================================
-
-figures:
+explainability:
+  shap_enabled: true
+  sample_size: 1000
+  save_summary_plot: true
   output_folder: "outputs/figures"
-
-  dpi: 300
-
-  format: "png"
-
-  create_observed_vs_predicted_plot: true
-
-  create_model_comparison_plot: true
-
-  create_feature_importance_plot: true
-
-  create_residual_plot: true
-
-  create_error_distribution_plot: true
-
-
-# ==========================================================
-# Reproducibility
-# ==========================================================
-
-reproducibility:
-  set_python_seed: true
-  set_numpy_seed: true
-  set_model_seed: true
-
-  save_configuration_copy: true
-
-  save_package_versions: true
-
-  save_execution_timestamp: true
-```
