@@ -1,0 +1,39 @@
+```yaml
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it using the following information."
+
+title: "Precipitation Downscaling for Khulna District, Bangladesh"
+
+type: software
+
+authors:
+  - family-names: "Ashikur Rahman"
+    given-names: "Badhon"
+    alias: "Badhon2117016"
+
+repository-code: "https://github.com/Badhon2117016/Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh"
+
+url: "https://github.com/Badhon2117016/Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh"
+
+abstract: >
+  A reproducible geospatial and machine-learning workflow for downscaling
+  coarse-resolution precipitation data over Khulna District, Bangladesh,
+  using precipitation observations and environmental predictor variables.
+
+keywords:
+  - precipitation downscaling
+  - machine learning
+  - remote sensing
+  - GIS
+  - geospatial analysis
+  - Khulna
+  - Bangladesh
+  - rainfall
+  - raster processing
+
+license: MIT
+
+version: 1.0.0
+
+date-released: 2026-08-04
+```
