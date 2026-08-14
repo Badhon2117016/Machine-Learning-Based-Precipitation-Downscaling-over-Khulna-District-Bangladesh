@@ -1,0 +1,12 @@
+dataset,type,n_months,first,last,has_all_2022
+LST_DAY,monthly land,72,"(2017, 1)","(2022, 12)",True
+NDVI,monthly land,72,"(2017, 1)","(2022, 12)",True
+CCS,precipitation,72,"(2017, 1)","(2022, 12)",True
+CDR,precipitation,72,"(2017, 1)","(2022, 12)",True
+CHIRPS,precipitation,72,"(2017, 1)","(2022, 12)",True
+ERA5,precipitation,72,"(2017, 1)","(2022, 12)",True
+GSMAP_GAUGE,precipitation,72,"(2017, 1)","(2022, 12)",True
+GSMAP_MVK,precipitation,72,"(2017, 1)","(2022, 12)",True
+IMERG,precipitation,72,"(2017, 1)","(2022, 12)",True
+PDIR,precipitation,72,"(2017, 1)","(2022, 12)",True
+PERSIANN,precipitation,72,"(2017, 1)","(2022, 12)",True

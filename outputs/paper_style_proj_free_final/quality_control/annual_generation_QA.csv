@@ -1,0 +1,13 @@
+combo,model,status,missing_months
+Comb1,Random Forest,OK,
+Comb1_land,Random Forest,OK,
+Comb2_land,Random Forest,OK,
+Comb1,XGBoost,OK,
+Comb1_land,XGBoost,OK,
+Comb2_land,XGBoost,OK,
+Comb1,LightGBM,OK,
+Comb1_land,LightGBM,OK,
+Comb2_land,LightGBM,OK,
+Comb1,CatBoost,OK,
+Comb1_land,CatBoost,OK,
+Comb2_land,CatBoost,OK,
