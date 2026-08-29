@@ -1,0 +1,16 @@
+dataset,monthly_count,has_all_2022,static_file
+ASPECT,0,False,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\raw\predictors\Aspect\Aspect_Degree_30m.tif
+CCS,72,True,
+CDR,72,True,
+CHIRPS,72,True,
+DEM,0,False,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\raw\predictors\DEM\Khulna_SRTM_DEM.tif
+DIST_SEA,0,False,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\raw\predictors\Distance_Sea\Distance_Sea.tif
+ERA5,72,True,
+GSMAP_GAUGE,72,True,
+GSMAP_MVK,72,True,
+IMERG,72,True,
+LST_DAY,72,True,
+NDVI,72,True,
+PDIR,72,True,
+PERSIANN,72,True,
+SLOPE,0,False,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\raw\predictors\Slope\Slope_Degree_30m.tif
