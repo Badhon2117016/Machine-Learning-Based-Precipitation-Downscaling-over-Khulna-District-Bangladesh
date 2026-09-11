@@ -1,0 +1,13 @@
+combination,split,total_rows,complete_rows,complete_pct,stations_remaining
+Comb1,train,288,276,95.83333333333333,6
+Comb1,validation,72,69,95.83333333333333,6
+Comb1,test,72,69,95.83333333333333,6
+Comb1_land,train,288,262,90.97222222222223,6
+Comb1_land,validation,72,63,87.5,6
+Comb1_land,test,72,64,88.88888888888889,6
+Comb2,train,288,288,100.0,6
+Comb2,validation,72,72,100.0,6
+Comb2,test,72,72,100.0,6
+Comb2_land,train,288,273,94.79166666666667,6
+Comb2_land,validation,72,65,90.27777777777777,6
+Comb2_land,test,72,67,93.05555555555556,6
