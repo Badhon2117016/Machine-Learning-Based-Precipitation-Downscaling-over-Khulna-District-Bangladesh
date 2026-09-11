@@ -1,3 +1,0 @@
-dataset,type,path,exists
-DEM,static land,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\processed\aligned_rasters\predictors\DEM\Khulna_SRTM_DEM.tif,True
-DIST_SEA,static land,E:\Geospatial\Precipitation-Downscaling-Khulna\Machine-Learning-Based-Precipitation-Downscaling-over-Khulna-District-Bangladesh\data\processed\aligned_rasters\predictors\Distance_Sea\Distance_Sea.tif,True
