@@ -1,0 +1,13 @@
+combo,model,months_generated,mean_coverage_pct,min_coverage_pct
+Comb1,CatBoost,12,100.0,100.0
+Comb1,LightGBM,12,100.0,100.0
+Comb1,Random Forest,12,100.0,100.0
+Comb1,XGBoost,12,100.0,100.0
+Comb1_land,CatBoost,12,100.0,100.0
+Comb1_land,LightGBM,12,100.0,100.0
+Comb1_land,Random Forest,12,100.0,100.0
+Comb1_land,XGBoost,12,100.0,100.0
+Comb2_land,CatBoost,12,100.0,100.0
+Comb2_land,LightGBM,12,100.0,100.0
+Comb2_land,Random Forest,12,100.0,100.0
+Comb2_land,XGBoost,12,100.0,100.0

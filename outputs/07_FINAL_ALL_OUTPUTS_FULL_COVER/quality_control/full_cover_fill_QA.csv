@@ -1,0 +1,1297 @@
+combo,model,month,feature,filled_pixels_inside_khulna
+Comb1,Random Forest,1,CCS,817
+Comb1,Random Forest,1,PDIR,817
+Comb1,Random Forest,1,GSMaP_MVK,0
+Comb1,Random Forest,1,CDR,4054
+Comb1,Random Forest,1,CHIRPS,314
+Comb1,Random Forest,1,IMERG,0
+Comb1,Random Forest,1,GSMaP_Gauge,0
+Comb1,Random Forest,1,ERA5,951
+Comb1,Random Forest,2,CCS,817
+Comb1,Random Forest,2,PDIR,817
+Comb1,Random Forest,2,GSMaP_MVK,0
+Comb1,Random Forest,2,CDR,4054
+Comb1,Random Forest,2,CHIRPS,314
+Comb1,Random Forest,2,IMERG,0
+Comb1,Random Forest,2,GSMaP_Gauge,0
+Comb1,Random Forest,2,ERA5,951
+Comb1,Random Forest,3,CCS,817
+Comb1,Random Forest,3,PDIR,817
+Comb1,Random Forest,3,GSMaP_MVK,0
+Comb1,Random Forest,3,CDR,4054
+Comb1,Random Forest,3,CHIRPS,314
+Comb1,Random Forest,3,IMERG,0
+Comb1,Random Forest,3,GSMaP_Gauge,0
+Comb1,Random Forest,3,ERA5,951
+Comb1,Random Forest,4,CCS,817
+Comb1,Random Forest,4,PDIR,817
+Comb1,Random Forest,4,GSMaP_MVK,0
+Comb1,Random Forest,4,CDR,4054
+Comb1,Random Forest,4,CHIRPS,314
+Comb1,Random Forest,4,IMERG,0
+Comb1,Random Forest,4,GSMaP_Gauge,0
+Comb1,Random Forest,4,ERA5,951
+Comb1,Random Forest,5,CCS,817
+Comb1,Random Forest,5,PDIR,817
+Comb1,Random Forest,5,GSMaP_MVK,0
+Comb1,Random Forest,5,CDR,4054
+Comb1,Random Forest,5,CHIRPS,314
+Comb1,Random Forest,5,IMERG,0
+Comb1,Random Forest,5,GSMaP_Gauge,0
+Comb1,Random Forest,5,ERA5,951
+Comb1,Random Forest,6,CCS,817
+Comb1,Random Forest,6,PDIR,817
+Comb1,Random Forest,6,GSMaP_MVK,0
+Comb1,Random Forest,6,CDR,4054
+Comb1,Random Forest,6,CHIRPS,314
+Comb1,Random Forest,6,IMERG,0
+Comb1,Random Forest,6,GSMaP_Gauge,0
+Comb1,Random Forest,6,ERA5,951
+Comb1,Random Forest,7,CCS,817
+Comb1,Random Forest,7,PDIR,817
+Comb1,Random Forest,7,GSMaP_MVK,0
+Comb1,Random Forest,7,CDR,4054
+Comb1,Random Forest,7,CHIRPS,314
+Comb1,Random Forest,7,IMERG,0
+Comb1,Random Forest,7,GSMaP_Gauge,0
+Comb1,Random Forest,7,ERA5,951
+Comb1,Random Forest,8,CCS,817
+Comb1,Random Forest,8,PDIR,817
+Comb1,Random Forest,8,GSMaP_MVK,14199
+Comb1,Random Forest,8,CDR,4054
+Comb1,Random Forest,8,CHIRPS,314
+Comb1,Random Forest,8,IMERG,0
+Comb1,Random Forest,8,GSMaP_Gauge,0
+Comb1,Random Forest,8,ERA5,951
+Comb1,Random Forest,9,CCS,817
+Comb1,Random Forest,9,PDIR,817
+Comb1,Random Forest,9,GSMaP_MVK,0
+Comb1,Random Forest,9,CDR,4054
+Comb1,Random Forest,9,CHIRPS,314
+Comb1,Random Forest,9,IMERG,0
+Comb1,Random Forest,9,GSMaP_Gauge,0
+Comb1,Random Forest,9,ERA5,951
+Comb1,Random Forest,10,CCS,817
+Comb1,Random Forest,10,PDIR,817
+Comb1,Random Forest,10,GSMaP_MVK,0
+Comb1,Random Forest,10,CDR,4054
+Comb1,Random Forest,10,CHIRPS,314
+Comb1,Random Forest,10,IMERG,0
+Comb1,Random Forest,10,GSMaP_Gauge,0
+Comb1,Random Forest,10,ERA5,951
+Comb1,Random Forest,11,CCS,817
+Comb1,Random Forest,11,PDIR,817
+Comb1,Random Forest,11,GSMaP_MVK,0
+Comb1,Random Forest,11,CDR,4054
+Comb1,Random Forest,11,CHIRPS,314
+Comb1,Random Forest,11,IMERG,0
+Comb1,Random Forest,11,GSMaP_Gauge,0
+Comb1,Random Forest,11,ERA5,951
+Comb1,Random Forest,12,CCS,817
+Comb1,Random Forest,12,PDIR,817
+Comb1,Random Forest,12,GSMaP_MVK,0
+Comb1,Random Forest,12,CDR,4054
+Comb1,Random Forest,12,CHIRPS,314
+Comb1,Random Forest,12,IMERG,0
+Comb1,Random Forest,12,GSMaP_Gauge,0
+Comb1,Random Forest,12,ERA5,951
+Comb1,XGBoost,1,CCS,817
+Comb1,XGBoost,1,PDIR,817
+Comb1,XGBoost,1,GSMaP_MVK,0
+Comb1,XGBoost,1,CDR,4054
+Comb1,XGBoost,1,CHIRPS,314
+Comb1,XGBoost,1,IMERG,0
+Comb1,XGBoost,1,GSMaP_Gauge,0
+Comb1,XGBoost,1,ERA5,951
+Comb1,XGBoost,2,CCS,817
+Comb1,XGBoost,2,PDIR,817
+Comb1,XGBoost,2,GSMaP_MVK,0
+Comb1,XGBoost,2,CDR,4054
+Comb1,XGBoost,2,CHIRPS,314
+Comb1,XGBoost,2,IMERG,0
+Comb1,XGBoost,2,GSMaP_Gauge,0
+Comb1,XGBoost,2,ERA5,951
+Comb1,XGBoost,3,CCS,817
+Comb1,XGBoost,3,PDIR,817
+Comb1,XGBoost,3,GSMaP_MVK,0
+Comb1,XGBoost,3,CDR,4054
+Comb1,XGBoost,3,CHIRPS,314
+Comb1,XGBoost,3,IMERG,0
+Comb1,XGBoost,3,GSMaP_Gauge,0
+Comb1,XGBoost,3,ERA5,951
+Comb1,XGBoost,4,CCS,817
+Comb1,XGBoost,4,PDIR,817
+Comb1,XGBoost,4,GSMaP_MVK,0
+Comb1,XGBoost,4,CDR,4054
+Comb1,XGBoost,4,CHIRPS,314
+Comb1,XGBoost,4,IMERG,0
+Comb1,XGBoost,4,GSMaP_Gauge,0
+Comb1,XGBoost,4,ERA5,951
+Comb1,XGBoost,5,CCS,817
+Comb1,XGBoost,5,PDIR,817
+Comb1,XGBoost,5,GSMaP_MVK,0
+Comb1,XGBoost,5,CDR,4054
+Comb1,XGBoost,5,CHIRPS,314
+Comb1,XGBoost,5,IMERG,0
+Comb1,XGBoost,5,GSMaP_Gauge,0
+Comb1,XGBoost,5,ERA5,951
+Comb1,XGBoost,6,CCS,817
+Comb1,XGBoost,6,PDIR,817
+Comb1,XGBoost,6,GSMaP_MVK,0
+Comb1,XGBoost,6,CDR,4054
+Comb1,XGBoost,6,CHIRPS,314
+Comb1,XGBoost,6,IMERG,0
+Comb1,XGBoost,6,GSMaP_Gauge,0
+Comb1,XGBoost,6,ERA5,951
+Comb1,XGBoost,7,CCS,817
+Comb1,XGBoost,7,PDIR,817
+Comb1,XGBoost,7,GSMaP_MVK,0
+Comb1,XGBoost,7,CDR,4054
+Comb1,XGBoost,7,CHIRPS,314
+Comb1,XGBoost,7,IMERG,0
+Comb1,XGBoost,7,GSMaP_Gauge,0
+Comb1,XGBoost,7,ERA5,951
+Comb1,XGBoost,8,CCS,817
+Comb1,XGBoost,8,PDIR,817
+Comb1,XGBoost,8,GSMaP_MVK,14199
+Comb1,XGBoost,8,CDR,4054
+Comb1,XGBoost,8,CHIRPS,314
+Comb1,XGBoost,8,IMERG,0
+Comb1,XGBoost,8,GSMaP_Gauge,0
+Comb1,XGBoost,8,ERA5,951
+Comb1,XGBoost,9,CCS,817
+Comb1,XGBoost,9,PDIR,817
+Comb1,XGBoost,9,GSMaP_MVK,0
+Comb1,XGBoost,9,CDR,4054
+Comb1,XGBoost,9,CHIRPS,314
+Comb1,XGBoost,9,IMERG,0
+Comb1,XGBoost,9,GSMaP_Gauge,0
+Comb1,XGBoost,9,ERA5,951
+Comb1,XGBoost,10,CCS,817
+Comb1,XGBoost,10,PDIR,817
+Comb1,XGBoost,10,GSMaP_MVK,0
+Comb1,XGBoost,10,CDR,4054
+Comb1,XGBoost,10,CHIRPS,314
+Comb1,XGBoost,10,IMERG,0
+Comb1,XGBoost,10,GSMaP_Gauge,0
+Comb1,XGBoost,10,ERA5,951
+Comb1,XGBoost,11,CCS,817
+Comb1,XGBoost,11,PDIR,817
+Comb1,XGBoost,11,GSMaP_MVK,0
+Comb1,XGBoost,11,CDR,4054
+Comb1,XGBoost,11,CHIRPS,314
+Comb1,XGBoost,11,IMERG,0
+Comb1,XGBoost,11,GSMaP_Gauge,0
+Comb1,XGBoost,11,ERA5,951
+Comb1,XGBoost,12,CCS,817
+Comb1,XGBoost,12,PDIR,817
+Comb1,XGBoost,12,GSMaP_MVK,0
+Comb1,XGBoost,12,CDR,4054
+Comb1,XGBoost,12,CHIRPS,314
+Comb1,XGBoost,12,IMERG,0
+Comb1,XGBoost,12,GSMaP_Gauge,0
+Comb1,XGBoost,12,ERA5,951
+Comb1,LightGBM,1,CCS,817
+Comb1,LightGBM,1,PDIR,817
+Comb1,LightGBM,1,GSMaP_MVK,0
+Comb1,LightGBM,1,CDR,4054
+Comb1,LightGBM,1,CHIRPS,314
+Comb1,LightGBM,1,IMERG,0
+Comb1,LightGBM,1,GSMaP_Gauge,0
+Comb1,LightGBM,1,ERA5,951
+Comb1,LightGBM,2,CCS,817
+Comb1,LightGBM,2,PDIR,817
+Comb1,LightGBM,2,GSMaP_MVK,0
+Comb1,LightGBM,2,CDR,4054
+Comb1,LightGBM,2,CHIRPS,314
+Comb1,LightGBM,2,IMERG,0
+Comb1,LightGBM,2,GSMaP_Gauge,0
+Comb1,LightGBM,2,ERA5,951
+Comb1,LightGBM,3,CCS,817
+Comb1,LightGBM,3,PDIR,817
+Comb1,LightGBM,3,GSMaP_MVK,0
+Comb1,LightGBM,3,CDR,4054
+Comb1,LightGBM,3,CHIRPS,314
+Comb1,LightGBM,3,IMERG,0
+Comb1,LightGBM,3,GSMaP_Gauge,0
+Comb1,LightGBM,3,ERA5,951
+Comb1,LightGBM,4,CCS,817
+Comb1,LightGBM,4,PDIR,817
+Comb1,LightGBM,4,GSMaP_MVK,0
+Comb1,LightGBM,4,CDR,4054
+Comb1,LightGBM,4,CHIRPS,314
+Comb1,LightGBM,4,IMERG,0
+Comb1,LightGBM,4,GSMaP_Gauge,0
+Comb1,LightGBM,4,ERA5,951
+Comb1,LightGBM,5,CCS,817
+Comb1,LightGBM,5,PDIR,817
+Comb1,LightGBM,5,GSMaP_MVK,0
+Comb1,LightGBM,5,CDR,4054
+Comb1,LightGBM,5,CHIRPS,314
+Comb1,LightGBM,5,IMERG,0
+Comb1,LightGBM,5,GSMaP_Gauge,0
+Comb1,LightGBM,5,ERA5,951
+Comb1,LightGBM,6,CCS,817
+Comb1,LightGBM,6,PDIR,817
+Comb1,LightGBM,6,GSMaP_MVK,0
+Comb1,LightGBM,6,CDR,4054
+Comb1,LightGBM,6,CHIRPS,314
+Comb1,LightGBM,6,IMERG,0
+Comb1,LightGBM,6,GSMaP_Gauge,0
+Comb1,LightGBM,6,ERA5,951
+Comb1,LightGBM,7,CCS,817
+Comb1,LightGBM,7,PDIR,817
+Comb1,LightGBM,7,GSMaP_MVK,0
+Comb1,LightGBM,7,CDR,4054
+Comb1,LightGBM,7,CHIRPS,314
+Comb1,LightGBM,7,IMERG,0
+Comb1,LightGBM,7,GSMaP_Gauge,0
+Comb1,LightGBM,7,ERA5,951
+Comb1,LightGBM,8,CCS,817
+Comb1,LightGBM,8,PDIR,817
+Comb1,LightGBM,8,GSMaP_MVK,14199
+Comb1,LightGBM,8,CDR,4054
+Comb1,LightGBM,8,CHIRPS,314
+Comb1,LightGBM,8,IMERG,0
+Comb1,LightGBM,8,GSMaP_Gauge,0
+Comb1,LightGBM,8,ERA5,951
+Comb1,LightGBM,9,CCS,817
+Comb1,LightGBM,9,PDIR,817
+Comb1,LightGBM,9,GSMaP_MVK,0
+Comb1,LightGBM,9,CDR,4054
+Comb1,LightGBM,9,CHIRPS,314
+Comb1,LightGBM,9,IMERG,0
+Comb1,LightGBM,9,GSMaP_Gauge,0
+Comb1,LightGBM,9,ERA5,951
+Comb1,LightGBM,10,CCS,817
+Comb1,LightGBM,10,PDIR,817
+Comb1,LightGBM,10,GSMaP_MVK,0
+Comb1,LightGBM,10,CDR,4054
+Comb1,LightGBM,10,CHIRPS,314
+Comb1,LightGBM,10,IMERG,0
+Comb1,LightGBM,10,GSMaP_Gauge,0
+Comb1,LightGBM,10,ERA5,951
+Comb1,LightGBM,11,CCS,817
+Comb1,LightGBM,11,PDIR,817
+Comb1,LightGBM,11,GSMaP_MVK,0
+Comb1,LightGBM,11,CDR,4054
+Comb1,LightGBM,11,CHIRPS,314
+Comb1,LightGBM,11,IMERG,0
+Comb1,LightGBM,11,GSMaP_Gauge,0
+Comb1,LightGBM,11,ERA5,951
+Comb1,LightGBM,12,CCS,817
+Comb1,LightGBM,12,PDIR,817
+Comb1,LightGBM,12,GSMaP_MVK,0
+Comb1,LightGBM,12,CDR,4054
+Comb1,LightGBM,12,CHIRPS,314
+Comb1,LightGBM,12,IMERG,0
+Comb1,LightGBM,12,GSMaP_Gauge,0
+Comb1,LightGBM,12,ERA5,951
+Comb1,CatBoost,1,CCS,817
+Comb1,CatBoost,1,PDIR,817
+Comb1,CatBoost,1,GSMaP_MVK,0
+Comb1,CatBoost,1,CDR,4054
+Comb1,CatBoost,1,CHIRPS,314
+Comb1,CatBoost,1,IMERG,0
+Comb1,CatBoost,1,GSMaP_Gauge,0
+Comb1,CatBoost,1,ERA5,951
+Comb1,CatBoost,2,CCS,817
+Comb1,CatBoost,2,PDIR,817
+Comb1,CatBoost,2,GSMaP_MVK,0
+Comb1,CatBoost,2,CDR,4054
+Comb1,CatBoost,2,CHIRPS,314
+Comb1,CatBoost,2,IMERG,0
+Comb1,CatBoost,2,GSMaP_Gauge,0
+Comb1,CatBoost,2,ERA5,951
+Comb1,CatBoost,3,CCS,817
+Comb1,CatBoost,3,PDIR,817
+Comb1,CatBoost,3,GSMaP_MVK,0
+Comb1,CatBoost,3,CDR,4054
+Comb1,CatBoost,3,CHIRPS,314
+Comb1,CatBoost,3,IMERG,0
+Comb1,CatBoost,3,GSMaP_Gauge,0
+Comb1,CatBoost,3,ERA5,951
+Comb1,CatBoost,4,CCS,817
+Comb1,CatBoost,4,PDIR,817
+Comb1,CatBoost,4,GSMaP_MVK,0
+Comb1,CatBoost,4,CDR,4054
+Comb1,CatBoost,4,CHIRPS,314
+Comb1,CatBoost,4,IMERG,0
+Comb1,CatBoost,4,GSMaP_Gauge,0
+Comb1,CatBoost,4,ERA5,951
+Comb1,CatBoost,5,CCS,817
+Comb1,CatBoost,5,PDIR,817
+Comb1,CatBoost,5,GSMaP_MVK,0
+Comb1,CatBoost,5,CDR,4054
+Comb1,CatBoost,5,CHIRPS,314
+Comb1,CatBoost,5,IMERG,0
+Comb1,CatBoost,5,GSMaP_Gauge,0
+Comb1,CatBoost,5,ERA5,951
+Comb1,CatBoost,6,CCS,817
+Comb1,CatBoost,6,PDIR,817
+Comb1,CatBoost,6,GSMaP_MVK,0
+Comb1,CatBoost,6,CDR,4054
+Comb1,CatBoost,6,CHIRPS,314
+Comb1,CatBoost,6,IMERG,0
+Comb1,CatBoost,6,GSMaP_Gauge,0
+Comb1,CatBoost,6,ERA5,951
+Comb1,CatBoost,7,CCS,817
+Comb1,CatBoost,7,PDIR,817
+Comb1,CatBoost,7,GSMaP_MVK,0
+Comb1,CatBoost,7,CDR,4054
+Comb1,CatBoost,7,CHIRPS,314
+Comb1,CatBoost,7,IMERG,0
+Comb1,CatBoost,7,GSMaP_Gauge,0
+Comb1,CatBoost,7,ERA5,951
+Comb1,CatBoost,8,CCS,817
+Comb1,CatBoost,8,PDIR,817
+Comb1,CatBoost,8,GSMaP_MVK,14199
+Comb1,CatBoost,8,CDR,4054
+Comb1,CatBoost,8,CHIRPS,314
+Comb1,CatBoost,8,IMERG,0
+Comb1,CatBoost,8,GSMaP_Gauge,0
+Comb1,CatBoost,8,ERA5,951
+Comb1,CatBoost,9,CCS,817
+Comb1,CatBoost,9,PDIR,817
+Comb1,CatBoost,9,GSMaP_MVK,0
+Comb1,CatBoost,9,CDR,4054
+Comb1,CatBoost,9,CHIRPS,314
+Comb1,CatBoost,9,IMERG,0
+Comb1,CatBoost,9,GSMaP_Gauge,0
+Comb1,CatBoost,9,ERA5,951
+Comb1,CatBoost,10,CCS,817
+Comb1,CatBoost,10,PDIR,817
+Comb1,CatBoost,10,GSMaP_MVK,0
+Comb1,CatBoost,10,CDR,4054
+Comb1,CatBoost,10,CHIRPS,314
+Comb1,CatBoost,10,IMERG,0
+Comb1,CatBoost,10,GSMaP_Gauge,0
+Comb1,CatBoost,10,ERA5,951
+Comb1,CatBoost,11,CCS,817
+Comb1,CatBoost,11,PDIR,817
+Comb1,CatBoost,11,GSMaP_MVK,0
+Comb1,CatBoost,11,CDR,4054
+Comb1,CatBoost,11,CHIRPS,314
+Comb1,CatBoost,11,IMERG,0
+Comb1,CatBoost,11,GSMaP_Gauge,0
+Comb1,CatBoost,11,ERA5,951
+Comb1,CatBoost,12,CCS,817
+Comb1,CatBoost,12,PDIR,817
+Comb1,CatBoost,12,GSMaP_MVK,0
+Comb1,CatBoost,12,CDR,4054
+Comb1,CatBoost,12,CHIRPS,314
+Comb1,CatBoost,12,IMERG,0
+Comb1,CatBoost,12,GSMaP_Gauge,0
+Comb1,CatBoost,12,ERA5,951
+Comb1_land,Random Forest,1,CCS,817
+Comb1_land,Random Forest,1,PDIR,817
+Comb1_land,Random Forest,1,GSMaP_MVK,0
+Comb1_land,Random Forest,1,CDR,4054
+Comb1_land,Random Forest,1,CHIRPS,314
+Comb1_land,Random Forest,1,IMERG,0
+Comb1_land,Random Forest,1,GSMaP_Gauge,0
+Comb1_land,Random Forest,1,ERA5,951
+Comb1_land,Random Forest,1,DEM,0
+Comb1_land,Random Forest,1,NDVI,1411
+Comb1_land,Random Forest,1,LST_Day,1628
+Comb1_land,Random Forest,1,Distance_Sea,1588
+Comb1_land,Random Forest,2,CCS,817
+Comb1_land,Random Forest,2,PDIR,817
+Comb1_land,Random Forest,2,GSMaP_MVK,0
+Comb1_land,Random Forest,2,CDR,4054
+Comb1_land,Random Forest,2,CHIRPS,314
+Comb1_land,Random Forest,2,IMERG,0
+Comb1_land,Random Forest,2,GSMaP_Gauge,0
+Comb1_land,Random Forest,2,ERA5,951
+Comb1_land,Random Forest,2,DEM,0
+Comb1_land,Random Forest,2,NDVI,1364
+Comb1_land,Random Forest,2,LST_Day,1628
+Comb1_land,Random Forest,2,Distance_Sea,1588
+Comb1_land,Random Forest,3,CCS,817
+Comb1_land,Random Forest,3,PDIR,817
+Comb1_land,Random Forest,3,GSMaP_MVK,0
+Comb1_land,Random Forest,3,CDR,4054
+Comb1_land,Random Forest,3,CHIRPS,314
+Comb1_land,Random Forest,3,IMERG,0
+Comb1_land,Random Forest,3,GSMaP_Gauge,0
+Comb1_land,Random Forest,3,ERA5,951
+Comb1_land,Random Forest,3,DEM,0
+Comb1_land,Random Forest,3,NDVI,1362
+Comb1_land,Random Forest,3,LST_Day,1628
+Comb1_land,Random Forest,3,Distance_Sea,1588
+Comb1_land,Random Forest,4,CCS,817
+Comb1_land,Random Forest,4,PDIR,817
+Comb1_land,Random Forest,4,GSMaP_MVK,0
+Comb1_land,Random Forest,4,CDR,4054
+Comb1_land,Random Forest,4,CHIRPS,314
+Comb1_land,Random Forest,4,IMERG,0
+Comb1_land,Random Forest,4,GSMaP_Gauge,0
+Comb1_land,Random Forest,4,ERA5,951
+Comb1_land,Random Forest,4,DEM,0
+Comb1_land,Random Forest,4,NDVI,1330
+Comb1_land,Random Forest,4,LST_Day,1628
+Comb1_land,Random Forest,4,Distance_Sea,1588
+Comb1_land,Random Forest,5,CCS,817
+Comb1_land,Random Forest,5,PDIR,817
+Comb1_land,Random Forest,5,GSMaP_MVK,0
+Comb1_land,Random Forest,5,CDR,4054
+Comb1_land,Random Forest,5,CHIRPS,314
+Comb1_land,Random Forest,5,IMERG,0
+Comb1_land,Random Forest,5,GSMaP_Gauge,0
+Comb1_land,Random Forest,5,ERA5,951
+Comb1_land,Random Forest,5,DEM,0
+Comb1_land,Random Forest,5,NDVI,1280
+Comb1_land,Random Forest,5,LST_Day,1628
+Comb1_land,Random Forest,5,Distance_Sea,1588
+Comb1_land,Random Forest,6,CCS,817
+Comb1_land,Random Forest,6,PDIR,817
+Comb1_land,Random Forest,6,GSMaP_MVK,0
+Comb1_land,Random Forest,6,CDR,4054
+Comb1_land,Random Forest,6,CHIRPS,314
+Comb1_land,Random Forest,6,IMERG,0
+Comb1_land,Random Forest,6,GSMaP_Gauge,0
+Comb1_land,Random Forest,6,ERA5,951
+Comb1_land,Random Forest,6,DEM,0
+Comb1_land,Random Forest,6,NDVI,1247
+Comb1_land,Random Forest,6,LST_Day,10843
+Comb1_land,Random Forest,6,Distance_Sea,1588
+Comb1_land,Random Forest,7,CCS,817
+Comb1_land,Random Forest,7,PDIR,817
+Comb1_land,Random Forest,7,GSMaP_MVK,0
+Comb1_land,Random Forest,7,CDR,4054
+Comb1_land,Random Forest,7,CHIRPS,314
+Comb1_land,Random Forest,7,IMERG,0
+Comb1_land,Random Forest,7,GSMaP_Gauge,0
+Comb1_land,Random Forest,7,ERA5,951
+Comb1_land,Random Forest,7,DEM,0
+Comb1_land,Random Forest,7,NDVI,1319
+Comb1_land,Random Forest,7,LST_Day,4315
+Comb1_land,Random Forest,7,Distance_Sea,1588
+Comb1_land,Random Forest,8,CCS,817
+Comb1_land,Random Forest,8,PDIR,817
+Comb1_land,Random Forest,8,GSMaP_MVK,14199
+Comb1_land,Random Forest,8,CDR,4054
+Comb1_land,Random Forest,8,CHIRPS,314
+Comb1_land,Random Forest,8,IMERG,0
+Comb1_land,Random Forest,8,GSMaP_Gauge,0
+Comb1_land,Random Forest,8,ERA5,951
+Comb1_land,Random Forest,8,DEM,0
+Comb1_land,Random Forest,8,NDVI,1310
+Comb1_land,Random Forest,8,LST_Day,4178
+Comb1_land,Random Forest,8,Distance_Sea,1588
+Comb1_land,Random Forest,9,CCS,817
+Comb1_land,Random Forest,9,PDIR,817
+Comb1_land,Random Forest,9,GSMaP_MVK,0
+Comb1_land,Random Forest,9,CDR,4054
+Comb1_land,Random Forest,9,CHIRPS,314
+Comb1_land,Random Forest,9,IMERG,0
+Comb1_land,Random Forest,9,GSMaP_Gauge,0
+Comb1_land,Random Forest,9,ERA5,951
+Comb1_land,Random Forest,9,DEM,0
+Comb1_land,Random Forest,9,NDVI,1359
+Comb1_land,Random Forest,9,LST_Day,1753
+Comb1_land,Random Forest,9,Distance_Sea,1588
+Comb1_land,Random Forest,10,CCS,817
+Comb1_land,Random Forest,10,PDIR,817
+Comb1_land,Random Forest,10,GSMaP_MVK,0
+Comb1_land,Random Forest,10,CDR,4054
+Comb1_land,Random Forest,10,CHIRPS,314
+Comb1_land,Random Forest,10,IMERG,0
+Comb1_land,Random Forest,10,GSMaP_Gauge,0
+Comb1_land,Random Forest,10,ERA5,951
+Comb1_land,Random Forest,10,DEM,0
+Comb1_land,Random Forest,10,NDVI,1426
+Comb1_land,Random Forest,10,LST_Day,1628
+Comb1_land,Random Forest,10,Distance_Sea,1588
+Comb1_land,Random Forest,11,CCS,817
+Comb1_land,Random Forest,11,PDIR,817
+Comb1_land,Random Forest,11,GSMaP_MVK,0
+Comb1_land,Random Forest,11,CDR,4054
+Comb1_land,Random Forest,11,CHIRPS,314
+Comb1_land,Random Forest,11,IMERG,0
+Comb1_land,Random Forest,11,GSMaP_Gauge,0
+Comb1_land,Random Forest,11,ERA5,951
+Comb1_land,Random Forest,11,DEM,0
+Comb1_land,Random Forest,11,NDVI,1375
+Comb1_land,Random Forest,11,LST_Day,1628
+Comb1_land,Random Forest,11,Distance_Sea,1588
+Comb1_land,Random Forest,12,CCS,817
+Comb1_land,Random Forest,12,PDIR,817
+Comb1_land,Random Forest,12,GSMaP_MVK,0
+Comb1_land,Random Forest,12,CDR,4054
+Comb1_land,Random Forest,12,CHIRPS,314
+Comb1_land,Random Forest,12,IMERG,0
+Comb1_land,Random Forest,12,GSMaP_Gauge,0
+Comb1_land,Random Forest,12,ERA5,951
+Comb1_land,Random Forest,12,DEM,0
+Comb1_land,Random Forest,12,NDVI,1341
+Comb1_land,Random Forest,12,LST_Day,1628
+Comb1_land,Random Forest,12,Distance_Sea,1588
+Comb1_land,XGBoost,1,CCS,817
+Comb1_land,XGBoost,1,PDIR,817
+Comb1_land,XGBoost,1,GSMaP_MVK,0
+Comb1_land,XGBoost,1,CDR,4054
+Comb1_land,XGBoost,1,CHIRPS,314
+Comb1_land,XGBoost,1,IMERG,0
+Comb1_land,XGBoost,1,GSMaP_Gauge,0
+Comb1_land,XGBoost,1,ERA5,951
+Comb1_land,XGBoost,1,DEM,0
+Comb1_land,XGBoost,1,NDVI,1411
+Comb1_land,XGBoost,1,LST_Day,1628
+Comb1_land,XGBoost,1,Distance_Sea,1588
+Comb1_land,XGBoost,2,CCS,817
+Comb1_land,XGBoost,2,PDIR,817
+Comb1_land,XGBoost,2,GSMaP_MVK,0
+Comb1_land,XGBoost,2,CDR,4054
+Comb1_land,XGBoost,2,CHIRPS,314
+Comb1_land,XGBoost,2,IMERG,0
+Comb1_land,XGBoost,2,GSMaP_Gauge,0
+Comb1_land,XGBoost,2,ERA5,951
+Comb1_land,XGBoost,2,DEM,0
+Comb1_land,XGBoost,2,NDVI,1364
+Comb1_land,XGBoost,2,LST_Day,1628
+Comb1_land,XGBoost,2,Distance_Sea,1588
+Comb1_land,XGBoost,3,CCS,817
+Comb1_land,XGBoost,3,PDIR,817
+Comb1_land,XGBoost,3,GSMaP_MVK,0
+Comb1_land,XGBoost,3,CDR,4054
+Comb1_land,XGBoost,3,CHIRPS,314
+Comb1_land,XGBoost,3,IMERG,0
+Comb1_land,XGBoost,3,GSMaP_Gauge,0
+Comb1_land,XGBoost,3,ERA5,951
+Comb1_land,XGBoost,3,DEM,0
+Comb1_land,XGBoost,3,NDVI,1362
+Comb1_land,XGBoost,3,LST_Day,1628
+Comb1_land,XGBoost,3,Distance_Sea,1588
+Comb1_land,XGBoost,4,CCS,817
+Comb1_land,XGBoost,4,PDIR,817
+Comb1_land,XGBoost,4,GSMaP_MVK,0
+Comb1_land,XGBoost,4,CDR,4054
+Comb1_land,XGBoost,4,CHIRPS,314
+Comb1_land,XGBoost,4,IMERG,0
+Comb1_land,XGBoost,4,GSMaP_Gauge,0
+Comb1_land,XGBoost,4,ERA5,951
+Comb1_land,XGBoost,4,DEM,0
+Comb1_land,XGBoost,4,NDVI,1330
+Comb1_land,XGBoost,4,LST_Day,1628
+Comb1_land,XGBoost,4,Distance_Sea,1588
+Comb1_land,XGBoost,5,CCS,817
+Comb1_land,XGBoost,5,PDIR,817
+Comb1_land,XGBoost,5,GSMaP_MVK,0
+Comb1_land,XGBoost,5,CDR,4054
+Comb1_land,XGBoost,5,CHIRPS,314
+Comb1_land,XGBoost,5,IMERG,0
+Comb1_land,XGBoost,5,GSMaP_Gauge,0
+Comb1_land,XGBoost,5,ERA5,951
+Comb1_land,XGBoost,5,DEM,0
+Comb1_land,XGBoost,5,NDVI,1280
+Comb1_land,XGBoost,5,LST_Day,1628
+Comb1_land,XGBoost,5,Distance_Sea,1588
+Comb1_land,XGBoost,6,CCS,817
+Comb1_land,XGBoost,6,PDIR,817
+Comb1_land,XGBoost,6,GSMaP_MVK,0
+Comb1_land,XGBoost,6,CDR,4054
+Comb1_land,XGBoost,6,CHIRPS,314
+Comb1_land,XGBoost,6,IMERG,0
+Comb1_land,XGBoost,6,GSMaP_Gauge,0
+Comb1_land,XGBoost,6,ERA5,951
+Comb1_land,XGBoost,6,DEM,0
+Comb1_land,XGBoost,6,NDVI,1247
+Comb1_land,XGBoost,6,LST_Day,10843
+Comb1_land,XGBoost,6,Distance_Sea,1588
+Comb1_land,XGBoost,7,CCS,817
+Comb1_land,XGBoost,7,PDIR,817
+Comb1_land,XGBoost,7,GSMaP_MVK,0
+Comb1_land,XGBoost,7,CDR,4054
+Comb1_land,XGBoost,7,CHIRPS,314
+Comb1_land,XGBoost,7,IMERG,0
+Comb1_land,XGBoost,7,GSMaP_Gauge,0
+Comb1_land,XGBoost,7,ERA5,951
+Comb1_land,XGBoost,7,DEM,0
+Comb1_land,XGBoost,7,NDVI,1319
+Comb1_land,XGBoost,7,LST_Day,4315
+Comb1_land,XGBoost,7,Distance_Sea,1588
+Comb1_land,XGBoost,8,CCS,817
+Comb1_land,XGBoost,8,PDIR,817
+Comb1_land,XGBoost,8,GSMaP_MVK,14199
+Comb1_land,XGBoost,8,CDR,4054
+Comb1_land,XGBoost,8,CHIRPS,314
+Comb1_land,XGBoost,8,IMERG,0
+Comb1_land,XGBoost,8,GSMaP_Gauge,0
+Comb1_land,XGBoost,8,ERA5,951
+Comb1_land,XGBoost,8,DEM,0
+Comb1_land,XGBoost,8,NDVI,1310
+Comb1_land,XGBoost,8,LST_Day,4178
+Comb1_land,XGBoost,8,Distance_Sea,1588
+Comb1_land,XGBoost,9,CCS,817
+Comb1_land,XGBoost,9,PDIR,817
+Comb1_land,XGBoost,9,GSMaP_MVK,0
+Comb1_land,XGBoost,9,CDR,4054
+Comb1_land,XGBoost,9,CHIRPS,314
+Comb1_land,XGBoost,9,IMERG,0
+Comb1_land,XGBoost,9,GSMaP_Gauge,0
+Comb1_land,XGBoost,9,ERA5,951
+Comb1_land,XGBoost,9,DEM,0
+Comb1_land,XGBoost,9,NDVI,1359
+Comb1_land,XGBoost,9,LST_Day,1753
+Comb1_land,XGBoost,9,Distance_Sea,1588
+Comb1_land,XGBoost,10,CCS,817
+Comb1_land,XGBoost,10,PDIR,817
+Comb1_land,XGBoost,10,GSMaP_MVK,0
+Comb1_land,XGBoost,10,CDR,4054
+Comb1_land,XGBoost,10,CHIRPS,314
+Comb1_land,XGBoost,10,IMERG,0
+Comb1_land,XGBoost,10,GSMaP_Gauge,0
+Comb1_land,XGBoost,10,ERA5,951
+Comb1_land,XGBoost,10,DEM,0
+Comb1_land,XGBoost,10,NDVI,1426
+Comb1_land,XGBoost,10,LST_Day,1628
+Comb1_land,XGBoost,10,Distance_Sea,1588
+Comb1_land,XGBoost,11,CCS,817
+Comb1_land,XGBoost,11,PDIR,817
+Comb1_land,XGBoost,11,GSMaP_MVK,0
+Comb1_land,XGBoost,11,CDR,4054
+Comb1_land,XGBoost,11,CHIRPS,314
+Comb1_land,XGBoost,11,IMERG,0
+Comb1_land,XGBoost,11,GSMaP_Gauge,0
+Comb1_land,XGBoost,11,ERA5,951
+Comb1_land,XGBoost,11,DEM,0
+Comb1_land,XGBoost,11,NDVI,1375
+Comb1_land,XGBoost,11,LST_Day,1628
+Comb1_land,XGBoost,11,Distance_Sea,1588
+Comb1_land,XGBoost,12,CCS,817
+Comb1_land,XGBoost,12,PDIR,817
+Comb1_land,XGBoost,12,GSMaP_MVK,0
+Comb1_land,XGBoost,12,CDR,4054
+Comb1_land,XGBoost,12,CHIRPS,314
+Comb1_land,XGBoost,12,IMERG,0
+Comb1_land,XGBoost,12,GSMaP_Gauge,0
+Comb1_land,XGBoost,12,ERA5,951
+Comb1_land,XGBoost,12,DEM,0
+Comb1_land,XGBoost,12,NDVI,1341
+Comb1_land,XGBoost,12,LST_Day,1628
+Comb1_land,XGBoost,12,Distance_Sea,1588
+Comb1_land,LightGBM,1,CCS,817
+Comb1_land,LightGBM,1,PDIR,817
+Comb1_land,LightGBM,1,GSMaP_MVK,0
+Comb1_land,LightGBM,1,CDR,4054
+Comb1_land,LightGBM,1,CHIRPS,314
+Comb1_land,LightGBM,1,IMERG,0
+Comb1_land,LightGBM,1,GSMaP_Gauge,0
+Comb1_land,LightGBM,1,ERA5,951
+Comb1_land,LightGBM,1,DEM,0
+Comb1_land,LightGBM,1,NDVI,1411
+Comb1_land,LightGBM,1,LST_Day,1628
+Comb1_land,LightGBM,1,Distance_Sea,1588
+Comb1_land,LightGBM,2,CCS,817
+Comb1_land,LightGBM,2,PDIR,817
+Comb1_land,LightGBM,2,GSMaP_MVK,0
+Comb1_land,LightGBM,2,CDR,4054
+Comb1_land,LightGBM,2,CHIRPS,314
+Comb1_land,LightGBM,2,IMERG,0
+Comb1_land,LightGBM,2,GSMaP_Gauge,0
+Comb1_land,LightGBM,2,ERA5,951
+Comb1_land,LightGBM,2,DEM,0
+Comb1_land,LightGBM,2,NDVI,1364
+Comb1_land,LightGBM,2,LST_Day,1628
+Comb1_land,LightGBM,2,Distance_Sea,1588
+Comb1_land,LightGBM,3,CCS,817
+Comb1_land,LightGBM,3,PDIR,817
+Comb1_land,LightGBM,3,GSMaP_MVK,0
+Comb1_land,LightGBM,3,CDR,4054
+Comb1_land,LightGBM,3,CHIRPS,314
+Comb1_land,LightGBM,3,IMERG,0
+Comb1_land,LightGBM,3,GSMaP_Gauge,0
+Comb1_land,LightGBM,3,ERA5,951
+Comb1_land,LightGBM,3,DEM,0
+Comb1_land,LightGBM,3,NDVI,1362
+Comb1_land,LightGBM,3,LST_Day,1628
+Comb1_land,LightGBM,3,Distance_Sea,1588
+Comb1_land,LightGBM,4,CCS,817
+Comb1_land,LightGBM,4,PDIR,817
+Comb1_land,LightGBM,4,GSMaP_MVK,0
+Comb1_land,LightGBM,4,CDR,4054
+Comb1_land,LightGBM,4,CHIRPS,314
+Comb1_land,LightGBM,4,IMERG,0
+Comb1_land,LightGBM,4,GSMaP_Gauge,0
+Comb1_land,LightGBM,4,ERA5,951
+Comb1_land,LightGBM,4,DEM,0
+Comb1_land,LightGBM,4,NDVI,1330
+Comb1_land,LightGBM,4,LST_Day,1628
+Comb1_land,LightGBM,4,Distance_Sea,1588
+Comb1_land,LightGBM,5,CCS,817
+Comb1_land,LightGBM,5,PDIR,817
+Comb1_land,LightGBM,5,GSMaP_MVK,0
+Comb1_land,LightGBM,5,CDR,4054
+Comb1_land,LightGBM,5,CHIRPS,314
+Comb1_land,LightGBM,5,IMERG,0
+Comb1_land,LightGBM,5,GSMaP_Gauge,0
+Comb1_land,LightGBM,5,ERA5,951
+Comb1_land,LightGBM,5,DEM,0
+Comb1_land,LightGBM,5,NDVI,1280
+Comb1_land,LightGBM,5,LST_Day,1628
+Comb1_land,LightGBM,5,Distance_Sea,1588
+Comb1_land,LightGBM,6,CCS,817
+Comb1_land,LightGBM,6,PDIR,817
+Comb1_land,LightGBM,6,GSMaP_MVK,0
+Comb1_land,LightGBM,6,CDR,4054
+Comb1_land,LightGBM,6,CHIRPS,314
+Comb1_land,LightGBM,6,IMERG,0
+Comb1_land,LightGBM,6,GSMaP_Gauge,0
+Comb1_land,LightGBM,6,ERA5,951
+Comb1_land,LightGBM,6,DEM,0
+Comb1_land,LightGBM,6,NDVI,1247
+Comb1_land,LightGBM,6,LST_Day,10843
+Comb1_land,LightGBM,6,Distance_Sea,1588
+Comb1_land,LightGBM,7,CCS,817
+Comb1_land,LightGBM,7,PDIR,817
+Comb1_land,LightGBM,7,GSMaP_MVK,0
+Comb1_land,LightGBM,7,CDR,4054
+Comb1_land,LightGBM,7,CHIRPS,314
+Comb1_land,LightGBM,7,IMERG,0
+Comb1_land,LightGBM,7,GSMaP_Gauge,0
+Comb1_land,LightGBM,7,ERA5,951
+Comb1_land,LightGBM,7,DEM,0
+Comb1_land,LightGBM,7,NDVI,1319
+Comb1_land,LightGBM,7,LST_Day,4315
+Comb1_land,LightGBM,7,Distance_Sea,1588
+Comb1_land,LightGBM,8,CCS,817
+Comb1_land,LightGBM,8,PDIR,817
+Comb1_land,LightGBM,8,GSMaP_MVK,14199
+Comb1_land,LightGBM,8,CDR,4054
+Comb1_land,LightGBM,8,CHIRPS,314
+Comb1_land,LightGBM,8,IMERG,0
+Comb1_land,LightGBM,8,GSMaP_Gauge,0
+Comb1_land,LightGBM,8,ERA5,951
+Comb1_land,LightGBM,8,DEM,0
+Comb1_land,LightGBM,8,NDVI,1310
+Comb1_land,LightGBM,8,LST_Day,4178
+Comb1_land,LightGBM,8,Distance_Sea,1588
+Comb1_land,LightGBM,9,CCS,817
+Comb1_land,LightGBM,9,PDIR,817
+Comb1_land,LightGBM,9,GSMaP_MVK,0
+Comb1_land,LightGBM,9,CDR,4054
+Comb1_land,LightGBM,9,CHIRPS,314
+Comb1_land,LightGBM,9,IMERG,0
+Comb1_land,LightGBM,9,GSMaP_Gauge,0
+Comb1_land,LightGBM,9,ERA5,951
+Comb1_land,LightGBM,9,DEM,0
+Comb1_land,LightGBM,9,NDVI,1359
+Comb1_land,LightGBM,9,LST_Day,1753
+Comb1_land,LightGBM,9,Distance_Sea,1588
+Comb1_land,LightGBM,10,CCS,817
+Comb1_land,LightGBM,10,PDIR,817
+Comb1_land,LightGBM,10,GSMaP_MVK,0
+Comb1_land,LightGBM,10,CDR,4054
+Comb1_land,LightGBM,10,CHIRPS,314
+Comb1_land,LightGBM,10,IMERG,0
+Comb1_land,LightGBM,10,GSMaP_Gauge,0
+Comb1_land,LightGBM,10,ERA5,951
+Comb1_land,LightGBM,10,DEM,0
+Comb1_land,LightGBM,10,NDVI,1426
+Comb1_land,LightGBM,10,LST_Day,1628
+Comb1_land,LightGBM,10,Distance_Sea,1588
+Comb1_land,LightGBM,11,CCS,817
+Comb1_land,LightGBM,11,PDIR,817
+Comb1_land,LightGBM,11,GSMaP_MVK,0
+Comb1_land,LightGBM,11,CDR,4054
+Comb1_land,LightGBM,11,CHIRPS,314
+Comb1_land,LightGBM,11,IMERG,0
+Comb1_land,LightGBM,11,GSMaP_Gauge,0
+Comb1_land,LightGBM,11,ERA5,951
+Comb1_land,LightGBM,11,DEM,0
+Comb1_land,LightGBM,11,NDVI,1375
+Comb1_land,LightGBM,11,LST_Day,1628
+Comb1_land,LightGBM,11,Distance_Sea,1588
+Comb1_land,LightGBM,12,CCS,817
+Comb1_land,LightGBM,12,PDIR,817
+Comb1_land,LightGBM,12,GSMaP_MVK,0
+Comb1_land,LightGBM,12,CDR,4054
+Comb1_land,LightGBM,12,CHIRPS,314
+Comb1_land,LightGBM,12,IMERG,0
+Comb1_land,LightGBM,12,GSMaP_Gauge,0
+Comb1_land,LightGBM,12,ERA5,951
+Comb1_land,LightGBM,12,DEM,0
+Comb1_land,LightGBM,12,NDVI,1341
+Comb1_land,LightGBM,12,LST_Day,1628
+Comb1_land,LightGBM,12,Distance_Sea,1588
+Comb1_land,CatBoost,1,CCS,817
+Comb1_land,CatBoost,1,PDIR,817
+Comb1_land,CatBoost,1,GSMaP_MVK,0
+Comb1_land,CatBoost,1,CDR,4054
+Comb1_land,CatBoost,1,CHIRPS,314
+Comb1_land,CatBoost,1,IMERG,0
+Comb1_land,CatBoost,1,GSMaP_Gauge,0
+Comb1_land,CatBoost,1,ERA5,951
+Comb1_land,CatBoost,1,DEM,0
+Comb1_land,CatBoost,1,NDVI,1411
+Comb1_land,CatBoost,1,LST_Day,1628
+Comb1_land,CatBoost,1,Distance_Sea,1588
+Comb1_land,CatBoost,2,CCS,817
+Comb1_land,CatBoost,2,PDIR,817
+Comb1_land,CatBoost,2,GSMaP_MVK,0
+Comb1_land,CatBoost,2,CDR,4054
+Comb1_land,CatBoost,2,CHIRPS,314
+Comb1_land,CatBoost,2,IMERG,0
+Comb1_land,CatBoost,2,GSMaP_Gauge,0
+Comb1_land,CatBoost,2,ERA5,951
+Comb1_land,CatBoost,2,DEM,0
+Comb1_land,CatBoost,2,NDVI,1364
+Comb1_land,CatBoost,2,LST_Day,1628
+Comb1_land,CatBoost,2,Distance_Sea,1588
+Comb1_land,CatBoost,3,CCS,817
+Comb1_land,CatBoost,3,PDIR,817
+Comb1_land,CatBoost,3,GSMaP_MVK,0
+Comb1_land,CatBoost,3,CDR,4054
+Comb1_land,CatBoost,3,CHIRPS,314
+Comb1_land,CatBoost,3,IMERG,0
+Comb1_land,CatBoost,3,GSMaP_Gauge,0
+Comb1_land,CatBoost,3,ERA5,951
+Comb1_land,CatBoost,3,DEM,0
+Comb1_land,CatBoost,3,NDVI,1362
+Comb1_land,CatBoost,3,LST_Day,1628
+Comb1_land,CatBoost,3,Distance_Sea,1588
+Comb1_land,CatBoost,4,CCS,817
+Comb1_land,CatBoost,4,PDIR,817
+Comb1_land,CatBoost,4,GSMaP_MVK,0
+Comb1_land,CatBoost,4,CDR,4054
+Comb1_land,CatBoost,4,CHIRPS,314
+Comb1_land,CatBoost,4,IMERG,0
+Comb1_land,CatBoost,4,GSMaP_Gauge,0
+Comb1_land,CatBoost,4,ERA5,951
+Comb1_land,CatBoost,4,DEM,0
+Comb1_land,CatBoost,4,NDVI,1330
+Comb1_land,CatBoost,4,LST_Day,1628
+Comb1_land,CatBoost,4,Distance_Sea,1588
+Comb1_land,CatBoost,5,CCS,817
+Comb1_land,CatBoost,5,PDIR,817
+Comb1_land,CatBoost,5,GSMaP_MVK,0
+Comb1_land,CatBoost,5,CDR,4054
+Comb1_land,CatBoost,5,CHIRPS,314
+Comb1_land,CatBoost,5,IMERG,0
+Comb1_land,CatBoost,5,GSMaP_Gauge,0
+Comb1_land,CatBoost,5,ERA5,951
+Comb1_land,CatBoost,5,DEM,0
+Comb1_land,CatBoost,5,NDVI,1280
+Comb1_land,CatBoost,5,LST_Day,1628
+Comb1_land,CatBoost,5,Distance_Sea,1588
+Comb1_land,CatBoost,6,CCS,817
+Comb1_land,CatBoost,6,PDIR,817
+Comb1_land,CatBoost,6,GSMaP_MVK,0
+Comb1_land,CatBoost,6,CDR,4054
+Comb1_land,CatBoost,6,CHIRPS,314
+Comb1_land,CatBoost,6,IMERG,0
+Comb1_land,CatBoost,6,GSMaP_Gauge,0
+Comb1_land,CatBoost,6,ERA5,951
+Comb1_land,CatBoost,6,DEM,0
+Comb1_land,CatBoost,6,NDVI,1247
+Comb1_land,CatBoost,6,LST_Day,10843
+Comb1_land,CatBoost,6,Distance_Sea,1588
+Comb1_land,CatBoost,7,CCS,817
+Comb1_land,CatBoost,7,PDIR,817
+Comb1_land,CatBoost,7,GSMaP_MVK,0
+Comb1_land,CatBoost,7,CDR,4054
+Comb1_land,CatBoost,7,CHIRPS,314
+Comb1_land,CatBoost,7,IMERG,0
+Comb1_land,CatBoost,7,GSMaP_Gauge,0
+Comb1_land,CatBoost,7,ERA5,951
+Comb1_land,CatBoost,7,DEM,0
+Comb1_land,CatBoost,7,NDVI,1319
+Comb1_land,CatBoost,7,LST_Day,4315
+Comb1_land,CatBoost,7,Distance_Sea,1588
+Comb1_land,CatBoost,8,CCS,817
+Comb1_land,CatBoost,8,PDIR,817
+Comb1_land,CatBoost,8,GSMaP_MVK,14199
+Comb1_land,CatBoost,8,CDR,4054
+Comb1_land,CatBoost,8,CHIRPS,314
+Comb1_land,CatBoost,8,IMERG,0
+Comb1_land,CatBoost,8,GSMaP_Gauge,0
+Comb1_land,CatBoost,8,ERA5,951
+Comb1_land,CatBoost,8,DEM,0
+Comb1_land,CatBoost,8,NDVI,1310
+Comb1_land,CatBoost,8,LST_Day,4178
+Comb1_land,CatBoost,8,Distance_Sea,1588
+Comb1_land,CatBoost,9,CCS,817
+Comb1_land,CatBoost,9,PDIR,817
+Comb1_land,CatBoost,9,GSMaP_MVK,0
+Comb1_land,CatBoost,9,CDR,4054
+Comb1_land,CatBoost,9,CHIRPS,314
+Comb1_land,CatBoost,9,IMERG,0
+Comb1_land,CatBoost,9,GSMaP_Gauge,0
+Comb1_land,CatBoost,9,ERA5,951
+Comb1_land,CatBoost,9,DEM,0
+Comb1_land,CatBoost,9,NDVI,1359
+Comb1_land,CatBoost,9,LST_Day,1753
+Comb1_land,CatBoost,9,Distance_Sea,1588
+Comb1_land,CatBoost,10,CCS,817
+Comb1_land,CatBoost,10,PDIR,817
+Comb1_land,CatBoost,10,GSMaP_MVK,0
+Comb1_land,CatBoost,10,CDR,4054
+Comb1_land,CatBoost,10,CHIRPS,314
+Comb1_land,CatBoost,10,IMERG,0
+Comb1_land,CatBoost,10,GSMaP_Gauge,0
+Comb1_land,CatBoost,10,ERA5,951
+Comb1_land,CatBoost,10,DEM,0
+Comb1_land,CatBoost,10,NDVI,1426
+Comb1_land,CatBoost,10,LST_Day,1628
+Comb1_land,CatBoost,10,Distance_Sea,1588
+Comb1_land,CatBoost,11,CCS,817
+Comb1_land,CatBoost,11,PDIR,817
+Comb1_land,CatBoost,11,GSMaP_MVK,0
+Comb1_land,CatBoost,11,CDR,4054
+Comb1_land,CatBoost,11,CHIRPS,314
+Comb1_land,CatBoost,11,IMERG,0
+Comb1_land,CatBoost,11,GSMaP_Gauge,0
+Comb1_land,CatBoost,11,ERA5,951
+Comb1_land,CatBoost,11,DEM,0
+Comb1_land,CatBoost,11,NDVI,1375
+Comb1_land,CatBoost,11,LST_Day,1628
+Comb1_land,CatBoost,11,Distance_Sea,1588
+Comb1_land,CatBoost,12,CCS,817
+Comb1_land,CatBoost,12,PDIR,817
+Comb1_land,CatBoost,12,GSMaP_MVK,0
+Comb1_land,CatBoost,12,CDR,4054
+Comb1_land,CatBoost,12,CHIRPS,314
+Comb1_land,CatBoost,12,IMERG,0
+Comb1_land,CatBoost,12,GSMaP_Gauge,0
+Comb1_land,CatBoost,12,ERA5,951
+Comb1_land,CatBoost,12,DEM,0
+Comb1_land,CatBoost,12,NDVI,1341
+Comb1_land,CatBoost,12,LST_Day,1628
+Comb1_land,CatBoost,12,Distance_Sea,1588
+Comb2_land,Random Forest,1,CHIRPS,314
+Comb2_land,Random Forest,1,CDR,4054
+Comb2_land,Random Forest,1,ERA5,951
+Comb2_land,Random Forest,1,DEM,0
+Comb2_land,Random Forest,1,NDVI,1411
+Comb2_land,Random Forest,1,LST_Day,1628
+Comb2_land,Random Forest,1,Distance_Sea,1588
+Comb2_land,Random Forest,2,CHIRPS,314
+Comb2_land,Random Forest,2,CDR,4054
+Comb2_land,Random Forest,2,ERA5,951
+Comb2_land,Random Forest,2,DEM,0
+Comb2_land,Random Forest,2,NDVI,1364
+Comb2_land,Random Forest,2,LST_Day,1628
+Comb2_land,Random Forest,2,Distance_Sea,1588
+Comb2_land,Random Forest,3,CHIRPS,314
+Comb2_land,Random Forest,3,CDR,4054
+Comb2_land,Random Forest,3,ERA5,951
+Comb2_land,Random Forest,3,DEM,0
+Comb2_land,Random Forest,3,NDVI,1362
+Comb2_land,Random Forest,3,LST_Day,1628
+Comb2_land,Random Forest,3,Distance_Sea,1588
+Comb2_land,Random Forest,4,CHIRPS,314
+Comb2_land,Random Forest,4,CDR,4054
+Comb2_land,Random Forest,4,ERA5,951
+Comb2_land,Random Forest,4,DEM,0
+Comb2_land,Random Forest,4,NDVI,1330
+Comb2_land,Random Forest,4,LST_Day,1628
+Comb2_land,Random Forest,4,Distance_Sea,1588
+Comb2_land,Random Forest,5,CHIRPS,314
+Comb2_land,Random Forest,5,CDR,4054
+Comb2_land,Random Forest,5,ERA5,951
+Comb2_land,Random Forest,5,DEM,0
+Comb2_land,Random Forest,5,NDVI,1280
+Comb2_land,Random Forest,5,LST_Day,1628
+Comb2_land,Random Forest,5,Distance_Sea,1588
+Comb2_land,Random Forest,6,CHIRPS,314
+Comb2_land,Random Forest,6,CDR,4054
+Comb2_land,Random Forest,6,ERA5,951
+Comb2_land,Random Forest,6,DEM,0
+Comb2_land,Random Forest,6,NDVI,1247
+Comb2_land,Random Forest,6,LST_Day,10843
+Comb2_land,Random Forest,6,Distance_Sea,1588
+Comb2_land,Random Forest,7,CHIRPS,314
+Comb2_land,Random Forest,7,CDR,4054
+Comb2_land,Random Forest,7,ERA5,951
+Comb2_land,Random Forest,7,DEM,0
+Comb2_land,Random Forest,7,NDVI,1319
+Comb2_land,Random Forest,7,LST_Day,4315
+Comb2_land,Random Forest,7,Distance_Sea,1588
+Comb2_land,Random Forest,8,CHIRPS,314
+Comb2_land,Random Forest,8,CDR,4054
+Comb2_land,Random Forest,8,ERA5,951
+Comb2_land,Random Forest,8,DEM,0
+Comb2_land,Random Forest,8,NDVI,1310
+Comb2_land,Random Forest,8,LST_Day,4178
+Comb2_land,Random Forest,8,Distance_Sea,1588
+Comb2_land,Random Forest,9,CHIRPS,314
+Comb2_land,Random Forest,9,CDR,4054
+Comb2_land,Random Forest,9,ERA5,951
+Comb2_land,Random Forest,9,DEM,0
+Comb2_land,Random Forest,9,NDVI,1359
+Comb2_land,Random Forest,9,LST_Day,1753
+Comb2_land,Random Forest,9,Distance_Sea,1588
+Comb2_land,Random Forest,10,CHIRPS,314
+Comb2_land,Random Forest,10,CDR,4054
+Comb2_land,Random Forest,10,ERA5,951
+Comb2_land,Random Forest,10,DEM,0
+Comb2_land,Random Forest,10,NDVI,1426
+Comb2_land,Random Forest,10,LST_Day,1628
+Comb2_land,Random Forest,10,Distance_Sea,1588
+Comb2_land,Random Forest,11,CHIRPS,314
+Comb2_land,Random Forest,11,CDR,4054
+Comb2_land,Random Forest,11,ERA5,951
+Comb2_land,Random Forest,11,DEM,0
+Comb2_land,Random Forest,11,NDVI,1375
+Comb2_land,Random Forest,11,LST_Day,1628
+Comb2_land,Random Forest,11,Distance_Sea,1588
+Comb2_land,Random Forest,12,CHIRPS,314
+Comb2_land,Random Forest,12,CDR,4054
+Comb2_land,Random Forest,12,ERA5,951
+Comb2_land,Random Forest,12,DEM,0
+Comb2_land,Random Forest,12,NDVI,1341
+Comb2_land,Random Forest,12,LST_Day,1628
+Comb2_land,Random Forest,12,Distance_Sea,1588
+Comb2_land,XGBoost,1,CHIRPS,314
+Comb2_land,XGBoost,1,CDR,4054
+Comb2_land,XGBoost,1,ERA5,951
+Comb2_land,XGBoost,1,DEM,0
+Comb2_land,XGBoost,1,NDVI,1411
+Comb2_land,XGBoost,1,LST_Day,1628
+Comb2_land,XGBoost,1,Distance_Sea,1588
+Comb2_land,XGBoost,2,CHIRPS,314
+Comb2_land,XGBoost,2,CDR,4054
+Comb2_land,XGBoost,2,ERA5,951
+Comb2_land,XGBoost,2,DEM,0
+Comb2_land,XGBoost,2,NDVI,1364
+Comb2_land,XGBoost,2,LST_Day,1628
+Comb2_land,XGBoost,2,Distance_Sea,1588
+Comb2_land,XGBoost,3,CHIRPS,314
+Comb2_land,XGBoost,3,CDR,4054
+Comb2_land,XGBoost,3,ERA5,951
+Comb2_land,XGBoost,3,DEM,0
+Comb2_land,XGBoost,3,NDVI,1362
+Comb2_land,XGBoost,3,LST_Day,1628
+Comb2_land,XGBoost,3,Distance_Sea,1588
+Comb2_land,XGBoost,4,CHIRPS,314
+Comb2_land,XGBoost,4,CDR,4054
+Comb2_land,XGBoost,4,ERA5,951
+Comb2_land,XGBoost,4,DEM,0
+Comb2_land,XGBoost,4,NDVI,1330
+Comb2_land,XGBoost,4,LST_Day,1628
+Comb2_land,XGBoost,4,Distance_Sea,1588
+Comb2_land,XGBoost,5,CHIRPS,314
+Comb2_land,XGBoost,5,CDR,4054
+Comb2_land,XGBoost,5,ERA5,951
+Comb2_land,XGBoost,5,DEM,0
+Comb2_land,XGBoost,5,NDVI,1280
+Comb2_land,XGBoost,5,LST_Day,1628
+Comb2_land,XGBoost,5,Distance_Sea,1588
+Comb2_land,XGBoost,6,CHIRPS,314
+Comb2_land,XGBoost,6,CDR,4054
+Comb2_land,XGBoost,6,ERA5,951
+Comb2_land,XGBoost,6,DEM,0
+Comb2_land,XGBoost,6,NDVI,1247
+Comb2_land,XGBoost,6,LST_Day,10843
+Comb2_land,XGBoost,6,Distance_Sea,1588
+Comb2_land,XGBoost,7,CHIRPS,314
+Comb2_land,XGBoost,7,CDR,4054
+Comb2_land,XGBoost,7,ERA5,951
+Comb2_land,XGBoost,7,DEM,0
+Comb2_land,XGBoost,7,NDVI,1319
+Comb2_land,XGBoost,7,LST_Day,4315
+Comb2_land,XGBoost,7,Distance_Sea,1588
+Comb2_land,XGBoost,8,CHIRPS,314
+Comb2_land,XGBoost,8,CDR,4054
+Comb2_land,XGBoost,8,ERA5,951
+Comb2_land,XGBoost,8,DEM,0
+Comb2_land,XGBoost,8,NDVI,1310
+Comb2_land,XGBoost,8,LST_Day,4178
+Comb2_land,XGBoost,8,Distance_Sea,1588
+Comb2_land,XGBoost,9,CHIRPS,314
+Comb2_land,XGBoost,9,CDR,4054
+Comb2_land,XGBoost,9,ERA5,951
+Comb2_land,XGBoost,9,DEM,0
+Comb2_land,XGBoost,9,NDVI,1359
+Comb2_land,XGBoost,9,LST_Day,1753
+Comb2_land,XGBoost,9,Distance_Sea,1588
+Comb2_land,XGBoost,10,CHIRPS,314
+Comb2_land,XGBoost,10,CDR,4054
+Comb2_land,XGBoost,10,ERA5,951
+Comb2_land,XGBoost,10,DEM,0
+Comb2_land,XGBoost,10,NDVI,1426
+Comb2_land,XGBoost,10,LST_Day,1628
+Comb2_land,XGBoost,10,Distance_Sea,1588
+Comb2_land,XGBoost,11,CHIRPS,314
+Comb2_land,XGBoost,11,CDR,4054
+Comb2_land,XGBoost,11,ERA5,951
+Comb2_land,XGBoost,11,DEM,0
+Comb2_land,XGBoost,11,NDVI,1375
+Comb2_land,XGBoost,11,LST_Day,1628
+Comb2_land,XGBoost,11,Distance_Sea,1588
+Comb2_land,XGBoost,12,CHIRPS,314
+Comb2_land,XGBoost,12,CDR,4054
+Comb2_land,XGBoost,12,ERA5,951
+Comb2_land,XGBoost,12,DEM,0
+Comb2_land,XGBoost,12,NDVI,1341
+Comb2_land,XGBoost,12,LST_Day,1628
+Comb2_land,XGBoost,12,Distance_Sea,1588
+Comb2_land,LightGBM,1,CHIRPS,314
+Comb2_land,LightGBM,1,CDR,4054
+Comb2_land,LightGBM,1,ERA5,951
+Comb2_land,LightGBM,1,DEM,0
+Comb2_land,LightGBM,1,NDVI,1411
+Comb2_land,LightGBM,1,LST_Day,1628
+Comb2_land,LightGBM,1,Distance_Sea,1588
+Comb2_land,LightGBM,2,CHIRPS,314
+Comb2_land,LightGBM,2,CDR,4054
+Comb2_land,LightGBM,2,ERA5,951
+Comb2_land,LightGBM,2,DEM,0
+Comb2_land,LightGBM,2,NDVI,1364
+Comb2_land,LightGBM,2,LST_Day,1628
+Comb2_land,LightGBM,2,Distance_Sea,1588
+Comb2_land,LightGBM,3,CHIRPS,314
+Comb2_land,LightGBM,3,CDR,4054
+Comb2_land,LightGBM,3,ERA5,951
+Comb2_land,LightGBM,3,DEM,0
+Comb2_land,LightGBM,3,NDVI,1362
+Comb2_land,LightGBM,3,LST_Day,1628
+Comb2_land,LightGBM,3,Distance_Sea,1588
+Comb2_land,LightGBM,4,CHIRPS,314
+Comb2_land,LightGBM,4,CDR,4054
+Comb2_land,LightGBM,4,ERA5,951
+Comb2_land,LightGBM,4,DEM,0
+Comb2_land,LightGBM,4,NDVI,1330
+Comb2_land,LightGBM,4,LST_Day,1628
+Comb2_land,LightGBM,4,Distance_Sea,1588
+Comb2_land,LightGBM,5,CHIRPS,314
+Comb2_land,LightGBM,5,CDR,4054
+Comb2_land,LightGBM,5,ERA5,951
+Comb2_land,LightGBM,5,DEM,0
+Comb2_land,LightGBM,5,NDVI,1280
+Comb2_land,LightGBM,5,LST_Day,1628
+Comb2_land,LightGBM,5,Distance_Sea,1588
+Comb2_land,LightGBM,6,CHIRPS,314
+Comb2_land,LightGBM,6,CDR,4054
+Comb2_land,LightGBM,6,ERA5,951
+Comb2_land,LightGBM,6,DEM,0
+Comb2_land,LightGBM,6,NDVI,1247
+Comb2_land,LightGBM,6,LST_Day,10843
+Comb2_land,LightGBM,6,Distance_Sea,1588
+Comb2_land,LightGBM,7,CHIRPS,314
+Comb2_land,LightGBM,7,CDR,4054
+Comb2_land,LightGBM,7,ERA5,951
+Comb2_land,LightGBM,7,DEM,0
+Comb2_land,LightGBM,7,NDVI,1319
+Comb2_land,LightGBM,7,LST_Day,4315
+Comb2_land,LightGBM,7,Distance_Sea,1588
+Comb2_land,LightGBM,8,CHIRPS,314
+Comb2_land,LightGBM,8,CDR,4054
+Comb2_land,LightGBM,8,ERA5,951
+Comb2_land,LightGBM,8,DEM,0
+Comb2_land,LightGBM,8,NDVI,1310
+Comb2_land,LightGBM,8,LST_Day,4178
+Comb2_land,LightGBM,8,Distance_Sea,1588
+Comb2_land,LightGBM,9,CHIRPS,314
+Comb2_land,LightGBM,9,CDR,4054
+Comb2_land,LightGBM,9,ERA5,951
+Comb2_land,LightGBM,9,DEM,0
+Comb2_land,LightGBM,9,NDVI,1359
+Comb2_land,LightGBM,9,LST_Day,1753
+Comb2_land,LightGBM,9,Distance_Sea,1588
+Comb2_land,LightGBM,10,CHIRPS,314
+Comb2_land,LightGBM,10,CDR,4054
+Comb2_land,LightGBM,10,ERA5,951
+Comb2_land,LightGBM,10,DEM,0
+Comb2_land,LightGBM,10,NDVI,1426
+Comb2_land,LightGBM,10,LST_Day,1628
+Comb2_land,LightGBM,10,Distance_Sea,1588
+Comb2_land,LightGBM,11,CHIRPS,314
+Comb2_land,LightGBM,11,CDR,4054
+Comb2_land,LightGBM,11,ERA5,951
+Comb2_land,LightGBM,11,DEM,0
+Comb2_land,LightGBM,11,NDVI,1375
+Comb2_land,LightGBM,11,LST_Day,1628
+Comb2_land,LightGBM,11,Distance_Sea,1588
+Comb2_land,LightGBM,12,CHIRPS,314
+Comb2_land,LightGBM,12,CDR,4054
+Comb2_land,LightGBM,12,ERA5,951
+Comb2_land,LightGBM,12,DEM,0
+Comb2_land,LightGBM,12,NDVI,1341
+Comb2_land,LightGBM,12,LST_Day,1628
+Comb2_land,LightGBM,12,Distance_Sea,1588
+Comb2_land,CatBoost,1,CHIRPS,314
+Comb2_land,CatBoost,1,CDR,4054
+Comb2_land,CatBoost,1,ERA5,951
+Comb2_land,CatBoost,1,DEM,0
+Comb2_land,CatBoost,1,NDVI,1411
+Comb2_land,CatBoost,1,LST_Day,1628
+Comb2_land,CatBoost,1,Distance_Sea,1588
+Comb2_land,CatBoost,2,CHIRPS,314
+Comb2_land,CatBoost,2,CDR,4054
+Comb2_land,CatBoost,2,ERA5,951
+Comb2_land,CatBoost,2,DEM,0
+Comb2_land,CatBoost,2,NDVI,1364
+Comb2_land,CatBoost,2,LST_Day,1628
+Comb2_land,CatBoost,2,Distance_Sea,1588
+Comb2_land,CatBoost,3,CHIRPS,314
+Comb2_land,CatBoost,3,CDR,4054
+Comb2_land,CatBoost,3,ERA5,951
+Comb2_land,CatBoost,3,DEM,0
+Comb2_land,CatBoost,3,NDVI,1362
+Comb2_land,CatBoost,3,LST_Day,1628
+Comb2_land,CatBoost,3,Distance_Sea,1588
+Comb2_land,CatBoost,4,CHIRPS,314
+Comb2_land,CatBoost,4,CDR,4054
+Comb2_land,CatBoost,4,ERA5,951
+Comb2_land,CatBoost,4,DEM,0
+Comb2_land,CatBoost,4,NDVI,1330
+Comb2_land,CatBoost,4,LST_Day,1628
+Comb2_land,CatBoost,4,Distance_Sea,1588
+Comb2_land,CatBoost,5,CHIRPS,314
+Comb2_land,CatBoost,5,CDR,4054
+Comb2_land,CatBoost,5,ERA5,951
+Comb2_land,CatBoost,5,DEM,0
+Comb2_land,CatBoost,5,NDVI,1280
+Comb2_land,CatBoost,5,LST_Day,1628
+Comb2_land,CatBoost,5,Distance_Sea,1588
+Comb2_land,CatBoost,6,CHIRPS,314
+Comb2_land,CatBoost,6,CDR,4054
+Comb2_land,CatBoost,6,ERA5,951
+Comb2_land,CatBoost,6,DEM,0
+Comb2_land,CatBoost,6,NDVI,1247
+Comb2_land,CatBoost,6,LST_Day,10843
+Comb2_land,CatBoost,6,Distance_Sea,1588
+Comb2_land,CatBoost,7,CHIRPS,314
+Comb2_land,CatBoost,7,CDR,4054
+Comb2_land,CatBoost,7,ERA5,951
+Comb2_land,CatBoost,7,DEM,0
+Comb2_land,CatBoost,7,NDVI,1319
+Comb2_land,CatBoost,7,LST_Day,4315
+Comb2_land,CatBoost,7,Distance_Sea,1588
+Comb2_land,CatBoost,8,CHIRPS,314
+Comb2_land,CatBoost,8,CDR,4054
+Comb2_land,CatBoost,8,ERA5,951
+Comb2_land,CatBoost,8,DEM,0
+Comb2_land,CatBoost,8,NDVI,1310
+Comb2_land,CatBoost,8,LST_Day,4178
+Comb2_land,CatBoost,8,Distance_Sea,1588
+Comb2_land,CatBoost,9,CHIRPS,314
+Comb2_land,CatBoost,9,CDR,4054
+Comb2_land,CatBoost,9,ERA5,951
+Comb2_land,CatBoost,9,DEM,0
+Comb2_land,CatBoost,9,NDVI,1359
+Comb2_land,CatBoost,9,LST_Day,1753
+Comb2_land,CatBoost,9,Distance_Sea,1588
+Comb2_land,CatBoost,10,CHIRPS,314
+Comb2_land,CatBoost,10,CDR,4054
+Comb2_land,CatBoost,10,ERA5,951
+Comb2_land,CatBoost,10,DEM,0
+Comb2_land,CatBoost,10,NDVI,1426
+Comb2_land,CatBoost,10,LST_Day,1628
+Comb2_land,CatBoost,10,Distance_Sea,1588
+Comb2_land,CatBoost,11,CHIRPS,314
+Comb2_land,CatBoost,11,CDR,4054
+Comb2_land,CatBoost,11,ERA5,951
+Comb2_land,CatBoost,11,DEM,0
+Comb2_land,CatBoost,11,NDVI,1375
+Comb2_land,CatBoost,11,LST_Day,1628
+Comb2_land,CatBoost,11,Distance_Sea,1588
+Comb2_land,CatBoost,12,CHIRPS,314
+Comb2_land,CatBoost,12,CDR,4054
+Comb2_land,CatBoost,12,ERA5,951
+Comb2_land,CatBoost,12,DEM,0
+Comb2_land,CatBoost,12,NDVI,1341
+Comb2_land,CatBoost,12,LST_Day,1628
+Comb2_land,CatBoost,12,Distance_Sea,1588
